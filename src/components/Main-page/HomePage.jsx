@@ -20,6 +20,7 @@ import { ThemeCard, CardGrid } from "../Themes/themes.jsx";
 import img1 from "./faq1.png";
 import Aos from "aos";
 import 'aos/dist/aos.css'
+import backgroundimg4 from "./backgroundimg4.mp4";
 import {
   TOP_SECTION,
   TeamInfo,
@@ -103,9 +104,13 @@ export default function HomePage(props) {
     };
   }, []);
   return (
-    <div className="Whole_div" style={{ backgroundImage: `url(${pattern})` }}>
+    <div className="Whole_div" >
       <div className="color_sectionbg">
         <div className="color_section" id="home">
+        <video autoPlay muted loop>
+      <source src={backgroundimg4} type="video/mp4"/>
+     </video>
+     
           <Container fluid >
             <Row className="Row info">
               <Col className="info-div" sm={12} lg={7} md={8}>
@@ -164,10 +169,12 @@ export default function HomePage(props) {
 
         <Row className="sponsorSection" id="sponsors">
 
-          <SponsorsHead />
+          {/* <SponsorsHead /> */}
+          <h1>SPONSORS</h1><br></br>
+          <h1>COMING SOON</h1>
           <div className="eventpartners" data-aos="fade-left" data-aos-duration="700">
             {/* <h5 className="ssubhead">Our Sponsors</h5> */}
-            {htc2023sponsor.map(SponsorGroup)}
+            {/* {htc2023sponsor.map(SponsorGroup)} */}
           </div>
           {/* <div className="eventpartners">
             <h5 className="ssubhead">Event Partners</h5>
