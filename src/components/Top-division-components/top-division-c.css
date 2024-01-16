@@ -61,6 +61,7 @@ button {
 .AboutMe h2 {
   font-size: 8rem;
   font-family: "Noto Sans", sans-serif;
+  align-items: center; 
 }
 
 p {
@@ -72,6 +73,7 @@ p {
 .Myinfo {
   text-align: left;
   margin-left: 10vh;
+ 
 }
 
 .Myinfo p {
