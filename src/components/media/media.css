@@ -1,7 +1,8 @@
 .media {
   color: white;
   text-align: center;
-  padding-top: 15rem;
+  /* padding-top: 7rem; */
+  padding-bottom: 7rem;
 }
 .single {
   display: inline-block;
