@@ -146,7 +146,7 @@ export default function HomePage(props) {
         {/* {Themes} */}
 
         <Row className={"themes-section"} id="themes" >
-          <h1 style={{ paddingTop: "4rem", paddingBottom: "2rem" }} data-aos='fade-right' data-aos-duration='1000' >
+          <h1 style={{ paddingTop: "2rem", paddingBottom: "6rem" }} data-aos='fade-right' data-aos-duration='1000' >
             Hack Themes
           </h1>
           <div data-aos='fade-left' data-aos-duration='1000' >
@@ -170,8 +170,8 @@ export default function HomePage(props) {
         <Row className="sponsorSection" id="sponsors">
 
           {/* <SponsorsHead /> */}
-          <h1>SPONSORS</h1><br></br>
-          <h1>COMING SOON</h1>
+          <h1 style={{fontFamily: "Times New Roman"}}>SPONSORS</h1><br></br>
+          <h1 style={{fontFamily: "Times New Roman"}}>COMING SOON</h1>
           <div className="eventpartners" data-aos="fade-left" data-aos-duration="700">
             {/* <h5 className="ssubhead">Our Sponsors</h5> */}
             {/* {htc2023sponsor.map(SponsorGroup)} */}
