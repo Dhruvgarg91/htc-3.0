@@ -54,6 +54,7 @@ h1 {
   
   position: relative;
   /* bottom: 14rem; */
+*/
 
 /* .single_row{
 display: flex;
@@ -83,7 +84,7 @@ align-items: center;
 }
 
 .logocover {
-  background: linear-gradient(#563b7e 30%, #0f192e);
+  background: linear-gradient(#141a2a 30%, #0f192e); 
   width: 100vw;
   padding-bottom: 10vh;
   
@@ -93,7 +94,7 @@ align-items: center;
   background: #fff;
   width: 100vw;
   /* background: -webkit-linear-gradient(to top right, #FDB99B, #CF8BF3, #A770EF);   */
-  background: linear-gradient(#0f192e 30%, #563b7e);
+  background: linear-gradient(#141a2a 30%, #0f192e);
 
   padding-top: 2rem;
   padding-bottom: 10rem;
@@ -111,7 +112,7 @@ align-items: center;
   text-align: center;
   max-width: 100vw;
   padding: 12vh 14vh 4vh 14vh;
-  background: linear-gradient(#563b7e 30%, #0f192e);
+  background: linear-gradient(#141a2a 30%, #0f192e);
   padding-bottom: 10vh;
   color:rgb(237, 237, 236);
 }
@@ -120,7 +121,7 @@ align-items: center;
   background-repeat: no-repeat;
 }
 .mainFaqs{
-  background: linear-gradient(#563b7e, #0f192e);
+  background: linear-gradient(#141a2a 30%, #0f192e);
   /* width: 100vw; */
 
 }
@@ -150,13 +151,13 @@ align-items: center;
   /* background: linear-gradient(#563b7e 30%, #0f192e); */
   max-width: 100vw;
   
-  background: linear-gradient(#0f192e 30%,#563b7e );
+  background: linear-gradient(#141a2a 30%, #0f192e );
   padding-bottom: 7vh;
 }
 
 .faq-section {
   /* background-image: linear-gradient(to bottom right, #7742B2 0%, #F180FF 70%, #FD8BD9 100%); */
-  background: linear-gradient(#563b7e 30%, #0f192e);
+  background: linear-gradient(#141a2a 30%, #0f192e);
 
   /* padding-bottom: 4vh; */
 }
@@ -172,7 +173,7 @@ padding: 10vh 0 10vh 0;
   height: 90rem;
 }
 .faqtp{
-  background: linear-gradient(#563b7e, #0f192e);
+  background: linear-gradient(#141a2a 30%, #0f192e);
 
 }
 .devfolio-img img {
