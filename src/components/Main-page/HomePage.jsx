@@ -146,7 +146,7 @@ export default function HomePage(props) {
         {/* {Themes} */}
 
         <Row className={"themes-section"} id="themes" >
-          <h1 style={{ paddingTop: "4rem", paddingBottom: "6rem" }} data-aos='fade-right' data-aos-duration='1000' >
+          <h1 style={{ paddingTop: "2rem", paddingBottom: "6rem" }} data-aos='fade-right' data-aos-duration='1000' >
             Hack Themes
           </h1>
           <div data-aos='fade-left' data-aos-duration='1000' >

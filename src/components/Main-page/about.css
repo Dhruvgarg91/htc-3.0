@@ -19,7 +19,7 @@
 .color_section {
   /* background: url('../navbar/mountains_front.png'), url('../navbar/mountains_behind.png'), url('../navbar/stars.png'); */
 
-  padding-bottom: 5rem;
+  padding-bottom: 21rem;
 }
 video{
 position:absolute;
@@ -54,7 +54,7 @@ h1 {
   
   position: relative;
   /* bottom: 14rem; */
-*/
+
 
 /* .single_row{
 display: flex;
