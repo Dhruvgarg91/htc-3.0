@@ -1,5 +1,5 @@
 .mainCards {
-  background: linear-gradient(#e4ebfb 10%, #4d2884);
+  background: linear-gradient(#6a5fb9 10%, #141a2a);
   color: #fff;
   margin: 4rem auto;
   overflow: hidden;
@@ -83,7 +83,7 @@
 
 .mainCards:hover {
   cursor: pointer;
-  background: linear-gradient(#ae82f5 10%, #482976);
+  background: linear-gradient(#491d8b 30%, #0f192e);
 }
 
 .mainCards:hover .content {

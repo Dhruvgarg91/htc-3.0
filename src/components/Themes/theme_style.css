@@ -82,7 +82,7 @@
 /* Style the back side */
 .flip-card-back {
   /* background-color: rgba(227, 122, 199, 0.851); */
-  background: linear-gradient(to bottom right, #b662fb, #7c0efa);
+  background: linear-gradient(to bottom right, #141a2a 30%, #abc0ef);
   color: white;
   transform: rotateY(180deg);
   text-align: center;
@@ -95,16 +95,17 @@
 
 .card-heading{
   /* background: linear-gradient(to bottom right,#ca90f9, #f2e9fd); */
-  background-image: linear-gradient(to bottom right, rgb(60, 58, 58), rgb(30, 24, 24));
+  background-image: linear-gradient(to bottom right, rgb(58, 58, 60), rgb(30, 24, 24));
   background: rgb(241, 235, 235);
   background:linen;
   padding: 0.5rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  text-align: center;
 }
 .card-heading>h2{
   color: rgb(224, 221, 221);
-  color:#7c0efa;
+  color:#0142f6;
   font-size: 3.3rem;
   font-weight: 700;
   margin: 0;
