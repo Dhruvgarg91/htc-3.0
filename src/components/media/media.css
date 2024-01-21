@@ -1,12 +1,12 @@
 .media {
   color: white;
   text-align: center;
-<<<<<<< HEAD
-  padding-top: 10rem;
-=======
-  /* padding-top: 7rem; */
-  padding-bottom: 7rem;
->>>>>>> 2129c19f4b58ce660c4b0691bfd18ae52b733659
+  
+  padding-bottom: 10rem;
+
+  
+ 
+
 }
 .single {
   display: inline-block;
