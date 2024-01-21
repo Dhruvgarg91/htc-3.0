@@ -45,7 +45,8 @@ const NAVBAR = () => {
 
   const listenScrollEvent = e => {
     if (window.scrollY > 800) {
-      setColor("#322e33");
+      setColor("#222243");
+      // setColor("#322e33");
     } else {
       setColor("transparent");
     }

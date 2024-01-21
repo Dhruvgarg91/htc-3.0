@@ -19,14 +19,14 @@
 .color_section {
   /* background: url('../navbar/mountains_front.png'), url('../navbar/mountains_behind.png'), url('../navbar/stars.png'); */
 
-  padding-bottom: 21rem;
+  /* padding-bottom: 21rem; */
 }
 video{
 position:absolute;
 top:0;
 left:0;
-min-width: 100%;
-max-width: 100%;
+/* min-width: 100%; */
+/* max-width: 100%; */
 z-index: -1;
 opacity: 1.5; 
 
