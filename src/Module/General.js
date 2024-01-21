@@ -38,25 +38,23 @@ import workadventure from "../Module/Assets/sponsorsLogos/workadventure.png";
 import voidimg from "../Module/Assets/sponsorsLogos/voidimg.png";
 
 // Importing all Team members images  from Assets
-import piyush from "./Assets/teami/Piyush.jpeg";
-import aavaig from "./Assets/teami/aavaig.jpeg";
-import Bhavuk from "./Assets/teami/Bhavuk.jpeg";
-import vaibhav from "./Assets/teami/Vaibhav.jpeg";
-import Sohil from "./Assets/teami/Sohil.png";
-import Aastha from "./Assets/teami/Aastha.jpg";
-import uday from "./Assets/teami/Uday.jpeg";
-import pulkit from "./Assets/teami/Pulkit.jpeg";
-import ayushman from "./Assets/teami/Aysuhmaan.jpeg";
-import vishal from "./Assets/teami/vishal.jpeg";
-import divya from "./Assets/teami/Divya.jpeg";
-import laksh from "./Assets/teami/Laksh.jpeg";
-import devansh from "./Assets/teami/Devansh.jpg";
-import mayank from "./Assets/teami/Mayank.jpeg";
-import shradha from "./Assets/teami/Shradha.jpeg";
-import ankita from "./Assets/teami/Ankita.jpeg";
-import nishant from "./Assets/teami/nishant.jpeg";
-import anjali from "./Assets/teami/Anjali.jpeg";
-import dev from "./Assets/teami/Dev.jpeg";
+import Aditya from "./Assets/teami/Aditya.png";
+import Armaan from "./Assets/teami/Armaan Jain.png";
+import Bhavik from "./Assets/teami/Bhavik.png";
+import Bhavya from "./Assets/teami/Bhavya.png";
+import Bhrigu from "./Assets/teami/Bhrigu.png";
+import Divya from "./Assets/teami/Divya.png";
+import Ela from "./Assets/teami/Ela.png";
+import Jasmine from "./Assets/teami/Jasmine.png";
+import Kashish from "./Assets/teami/Kashish.png";
+import Paakhi from "./Assets/teami/Paakhi Sharma.png";
+import Sajal from "./Assets/teami/Sajal.png";
+import Sakshi from "./Assets/teami/Sakshi.png";
+import Satyam from "./Assets/teami/Satyam.png";
+import Tanmay from "./Assets/teami/Tanmay.png";
+import Tisha from "./Assets/teami/Tisha.png";
+import Tusharr from "./Assets/teami/Tushar.png";
+
 
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
@@ -288,157 +286,135 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Piyush Khurana",
-      role: "Event Organiser",
-      github: "https://github.com/Piyush-pk02",
-      linkedin: "https://www.linkedin.com/in/piyush-khurana-/",
-      img: piyush
+      Name: "Aditya Mishra",
+      role: "Event Cordinator",
+      github: "https://github.com/adityanath0777",
+      linkedin: "https://www.linkedin.com/in/aditya-mishra-0777am/",
+      img: Aditya
     },
     {
-      Name: "Aavaig Malhotra",
+      Name: "Armaan Jain",
       role: "Event Organiser",
-      github: "https://github.com/aavaig-malhotra",
-      linkedin: "https://www.linkedin.com/in/aavaig-malhotra/",
-      img: aavaig
+      github: "",
+      linkedin: "https://www.linkedin.com/in/armaan-jain-653964167/",
+      img: Armaan
     },
     {
-      Name: "Bhavuk",
-      role: "Event Manager",
-      github: "https://github.com/Bhavuk-09",
-      linkedin: "https://www.linkedin.com/in/bhavuk-khanna-79b302186/",
-      img: Bhavuk
+      Name: "Bhavik Aggarwal",
+      role: "Logistics Head",
+      github: "",
+      linkedin: "",
+      img: Bhavik
     }
   ],
   [
     //Array 2
     {
-      Name: "Vaibhav",
-      role: "Event Manager",
-      github: "https://github.com/Vaibhavgupta05",
-      linkedin: "https://www.linkedin.com/in/vaibhav0511/",
-      img: vaibhav
-    },
-    {
-      Name: "Sohil",
-      role: "Event Manager",
-      github: "https://github.com/SohilK03",
-      linkedin: "https://www.linkedin.com/in/sohil-khattar-444663113/",
-      img: Sohil
-    },
-    {
-      Name: "Aastha",
-      role: "Event Manager",
+      Name: "Bhavya Jain",
+      role: "Technical Team Head",
       github: "",
-      linkedin: "https://www.linkedin.com/in/aastha-suri-557274181/",
-      img: Aastha
+      linkedin: "https://www.linkedin.com/in/bhavya-jain-33262627a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      img: Bhavya
+    },
+    {
+      Name: "Bhrigu Tayal",
+      role: "Publicity Head",
+      github: "",
+      linkedin: "https://www.linkedin.com/in/bhrigu-tayal-0aa469212/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      img: Bhrigu
+    },
+    {
+      Name: "Divya Aggarwal",
+      role: "Vice- Chairperson",
+      github: "https://github.com/divya520357",
+      linkedin: "https://www.linkedin.com/in/divya098",
+      img: Divya
     }
   ],
   [
     //Array 3
     {
-      Name: "Uday",
-      role: "Event Coordinator",
-      github: "",
-      linkedin: "https://www.linkedin.com/in/uday-jain-2853581a6/",
-      img: uday
-    },
-    {
-      Name: "Pulkit",
-      role: "Event Coordinator",
+      Name: "Ela Vinod",
+      role: "Event Manager",
       github: "",
       linkedin: "",
-      img: pulkit
+      img: Ela
     },
     {
-      Name: "Ayushman",
-      role: "Event Coordinator",
+      Name: "Jasmine",
+      role: "Event Manager",
       github: "",
-      linkedin: "https://www.linkedin.com/in/ayushmaanchauhan",
-      img: ayushman
+      linkedin: "",
+      img: Jasmine
+    },
+    {
+      Name: "Kashish",
+      role: "Documentation Head",
+      github: "",
+      linkedin: "https://www.linkedin.com/in/kashish-koli-696942242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      img: Kashish
     }
   ],
   [
     //Array 4
     {
-      Name: "Vishal",
-      role: "Event coordinator",
+      Name: "Paakhi Sharma",
+      role: "Event Management, Social Media and Publicity",
       github: "",
-      linkedin: "https://www.linkedin.com/in/vishal-gautam-655a93189",
-      img: vishal
+      linkedin: "https://www.linkedin.com/in/paakhi-sharma-48123122a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      img: Paakhi
     },
     {
-      Name: "Divya",
-      role: "Tech Head",
-      github: "https://github.com/divya520357",
-      linkedin: "https://www.linkedin.com/in/divya098/",
-      img: divya
+      Name: "Sajal Kumar",
+      role: "Event Management Head",
+      github: "",
+      linkedin: "",
+      img: Sajal
     },
     {
-      Name: "Laksh",
-      role: "Design Head",
+      Name: "Sakshi Gupta",
+      role: "Co-ordinator",
       github: "",
-      linkedin: "https://www.linkedin.com/in/lakshgambhir/",
-      img: laksh
+      linkedin: "",
+      img: Sakshi
     }
   ],
   [
     //Array 5
     {
-      Name: "Devansh",
-      role: "Design Head",
-      github: "https://github.com/DevanshV08",
-      linkedin: "https://www.linkedin.com/in/devansh-verma/",
-      img: devansh
+      Name: "Satyam Solanki",
+      role: "Content and Documentation Head",
+      github: "https://github.com/satyam2k3",
+      linkedin: "https://www.linkedin.com/in/satyam-solanki-b5258621b/",
+      img: Satyam
     },
     {
-      Name: "Mayank Hora",
-      role: "Sponsorship Head",
-      github: "https://github.com/MayankHora",
-      linkedin: "https://www.linkedin.com/in/mayankhora/",
-      img: mayank
-    },
-    {
-      Name: "Shradha",
-      role: "Outreach Head",
+      Name: "Tanmay Singh",
+      role: "Organizer",
       github: "",
-      linkedin: "https://www.linkedin.com/in/shradha-bansal-809aa61a8/",
-      img: shradha
+      linkedin: "https://www.linkedin.com/in/tanmay-dahiya-45029822a/",
+      img: Tanmay
+    },
+    {
+      Name: "Tisha Chabbra",
+      role: "Event Manager",
+      github: "https://github.com/Tishachhabra",
+      linkedin: "https://www.linkedin.com/in/tisha-chhabra ",
+      img: Tisha
     }
   ],
   [
     //Array 6
     {
-      Name: "Ankita",
-      role: "Content Head",
+      Name: "Tushar Singh",
+      role: "Event Cordinator",
       github: "",
       linkedin: "https://www.linkedin.com/in/ankita-singh-894b561b8/",
-      img: ankita
+      img: Tusharr
     },
-    {
-      Name: "Nishant",
-      role: "Logistics Head",
-      github: "",
-      linkedin: "https://www.linkedin.com/in/nishant-bhardwaj-461592205/",
-      img: nishant
-    },
-    {
-      Name: "Anjali Sharma",
-      role: "Publicity Head",
-      github: "",
-      linkedin: "https://www.linkedin.com/in/2609anjali/",
-      img: anjali
-    }
+    
   ],
-  [
-    //Array 5
-    {
-      Name: "Dev",
-      role: "Web Dev Head",
-      github: "https://github.com/doki12325",
-      linkedin: "https://www.linkedin.com/in/dev-khokhar-198ba5192/",
-      img: dev
-    }
-  ]
+  
 ];
 
 /** Instructions
