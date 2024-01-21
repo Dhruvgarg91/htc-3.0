@@ -55,7 +55,6 @@ import Tanmay from "./Assets/teami/Tanmay.png";
 import Tisha from "./Assets/teami/Tisha.png";
 import Tusharr from "./Assets/teami/Tushar.png";
 
-
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src alsoy
@@ -70,17 +69,22 @@ import tradeImg from "./Assets/theme_img/trade.jpg";
 import smartCityImg from "./Assets/theme_img/smart_city01.jpg";
 import investImg from "./Assets/theme_img/invest_03.jpg";
 import openInoImg from "./Assets/theme_img/open_ino_02.jpg";
-import faqImg from "./Assets/theme_img/faq01.jpg"; 
+import faqImg from "./Assets/theme_img/faq01.jpg";
 
 const TOP_SECTION = {
   TITLE: "Hack The Crisis 3.0",
-  Typed_effect: ["24 hours of creation", "Win awesome prizes","Increase your Network","Push your Limits!"],
+  Typed_effect: [
+    "24 hours of creation",
+    "Win awesome prizes",
+    "Increase your Network",
+    "Push your Limits!",
+  ],
   SHORT_DESCRIPTION:
     "Join us on 7th March - 8th March 2024 from across the nation for 24 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK: "./",
-  HACKERS_REGISTRATION_FORM_LINK: "./"
+  HACKERS_REGISTRATION_FORM_LINK: "./",
 };
 
 const SOCIALS = {
@@ -90,7 +94,7 @@ const SOCIALS = {
   twitter: " https://twitter.com/HackTheCrisis1?t=EUvOgiyUAeuc_1l8NEKqAg&s=08",
   devpost: "",
   email: "mailto:hackthecrisis2021@gmail.com",
-  mail: "hackthecrisis2021@gmail.com"
+  mail: "hackthecrisis2021@gmail.com",
 };
 
 const MIDDLE_SECTION = {
@@ -98,26 +102,26 @@ const MIDDLE_SECTION = {
   LONG_DESCRIPTION:
     "It is a virtual/online hackathon in which all the participants will work in a given timeline and develop strategies to cope up with the effects and after-effects of the ongoing crisis around the world on peoples lives.War has a catastrophic effect on the health and well being of nations.During war, people can be exposed to many different traumatic events. That raises the chances of developing mental health problems—like post-traumatic stress disorder (PTSD), anxiety, and depression—and poorer life outcomes as adults.Effects of war also include mass destruction of cities and have long lasting effects on a countrys economy. Armed conflict has important indirect negative consequences on infrastructure, public health provision, and social order.",
   LOGO_EFFECT: true,
-  LOGO: ""
+  LOGO: "",
 };
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: false,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
+    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u",
   },
   JOIN_TEAM: {
     required: false,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u"
+    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u",
   },
   Privacy_policy: {
     required: false,
-    src: ""
+    src: "",
   },
   Terms_of_use: {
     required: false,
-    src: ""
-  }
+    src: "",
+  },
 };
 
 /** ICON
@@ -139,54 +143,60 @@ const ThemesInfo = [
     {
       heading: "Education",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: "Develop intelligent systems leveraging AI and IoT to automate processes and enhance productivity across industries",
+      description:
+        "Develop intelligent systems leveraging AI and IoT to automate processes and enhance productivity across industries",
       img: eduImg,
-    }
+    },
   ],
   [
     // Array 2
     {
       heading: "Health",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: " Utilize technology to preserve and promote cultural heritage, traditions, and historical artifacts for future generations",
+      description:
+        " Utilize technology to preserve and promote cultural heritage, traditions, and historical artifacts for future generations",
       img: healthImg,
-    }
+    },
   ],
   [
     // Array 3
     {
       heading: "Trade",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: "Explore the potential of blockchain technology for secure, transparent applications beyond finance.",
+      description:
+        "Explore the potential of blockchain technology for secure, transparent applications beyond finance.",
       img: tradeImg,
-    }
+    },
   ],
   [
     // Array 4
     {
       heading: "Investment",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: "Revolutionize the travel experience through tech-driven solutions, offering personalized, sustainable, and immersive journeys",
+      description:
+        "Revolutionize the travel experience through tech-driven solutions, offering personalized, sustainable, and immersive journeys",
       img: investImg,
-    }
+    },
   ],
   [
     // Array 5
     {
       heading: "Smart City",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: "Engineer eco-friendly innovations to reduce carbon footprint, conserve resources, and promote a cleaner planet.",
+      description:
+        "Engineer eco-friendly innovations to reduce carbon footprint, conserve resources, and promote a cleaner planet.",
       img: smartCityImg,
-    }
+    },
   ],
   [
     // Array 6
     {
       heading: "Open Innovation",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
+      description:
+        " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
       img: openInoImg,
-    }
+    },
   ],
   // [
   //   // Array 7
@@ -206,8 +216,7 @@ const ThemesInfo = [
   //     img: agriImg,
   //   }
   // ],
-]
-
+];
 
 const Prizeinfo = [
   [
@@ -216,20 +225,20 @@ const Prizeinfo = [
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: "Overall First",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions"
+        "First Overall prize will be given to a project that outstands all other submissions",
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
       type: "Overall Second",
       content:
-        "Second Overall prize will be given to the second best project of the hackathon"
+        "Second Overall prize will be given to the second best project of the hackathon",
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "Overall Third",
       content:
-        "Best third overall project of the hackathon will win some awesome prizes"
-    }
+        "Best third overall project of the hackathon will win some awesome prizes",
+    },
   ],
   [
     //Array 2
@@ -237,32 +246,32 @@ const Prizeinfo = [
       icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
       type: "Best Solo",
       content:
-        "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
+        "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team",
     },
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% "
+      content: "Your project will qualify for this category if atleast 50% ",
     },
     {
       icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
       type: "Best UI/UX",
-      content: "Project with most creative designs will be UI/UX track"
-    }
+      content: "Project with most creative designs will be UI/UX track",
+    },
   ],
   [
     //Array 3
     {
       icon: <i className="fas fa-4x sixth fa-male"></i>,
       type: "Best Web App",
-      content: "Must use qoom in your project to win this category"
+      content: "Must use qoom in your project to win this category",
     },
     {
       icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
       type: "More prizes",
-      content: "More prizes will be revealed later"
-    }
-  ]
+      content: "More prizes will be revealed later",
+    },
+  ],
 ];
 
 /** Instructions
@@ -286,74 +295,79 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Aditya Mishra",
-      role: "Event Cordinator",
-      github: "https://github.com/adityanath0777",
-      linkedin: "https://www.linkedin.com/in/aditya-mishra-0777am/",
-      img: Aditya
+      Name: "Tanmay Singh",
+      role: "Organizer",
+      github: "",
+      linkedin: "https://www.linkedin.com/in/tanmay-dahiya-45029822a/",
+      img: Tanmay,
     },
+
     {
       Name: "Armaan Jain",
       role: "Event Organiser",
       github: "",
       linkedin: "https://www.linkedin.com/in/armaan-jain-653964167/",
-      img: Armaan
+      img: Armaan,
     },
-    {
-      Name: "Bhavik Aggarwal",
-      role: "Logistics Head",
-      github: "",
-      linkedin: "",
-      img: Bhavik
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: "Bhavya Jain",
-      role: "Technical Team Head",
-      github: "",
-      linkedin: "https://www.linkedin.com/in/bhavya-jain-33262627a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-      img: Bhavya
-    },
-    {
-      Name: "Bhrigu Tayal",
-      role: "Publicity Head",
-      github: "",
-      linkedin: "https://www.linkedin.com/in/bhrigu-tayal-0aa469212/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      img: Bhrigu
-    },
-    {
-      Name: "Divya Aggarwal",
-      role: "Vice- Chairperson",
-      github: "https://github.com/divya520357",
-      linkedin: "https://www.linkedin.com/in/divya098",
-      img: Divya
-    }
-  ],
-  [
-    //Array 3
     {
       Name: "Ela Vinod",
       role: "Event Manager",
       github: "",
       linkedin: "",
-      img: Ela
+      img: Ela,
     },
+  ],
+  [
+    //Array 2
     {
       Name: "Jasmine",
       role: "Event Manager",
       github: "",
       linkedin: "",
-      img: Jasmine
+      img: Jasmine,
     },
+    {
+      Name: "Tisha Chabbra",
+      role: "Event Manager",
+      github: "https://github.com/Tishachhabra",
+      linkedin: "https://www.linkedin.com/in/tisha-chhabra ",
+      img: Tisha,
+    },
+
+    {
+      Name: "Sakshi Gupta",
+      role: " Event Co-ordinator",
+      github: "",
+      linkedin: "",
+      img: Sakshi,
+    },
+  ],
+  [
+    //Array 3
+    {
+      Name: "Aditya Mishra",
+      role: "Event Cordinator",
+      github: "https://github.com/adityanath0777",
+      linkedin: "https://www.linkedin.com/in/aditya-mishra-0777am/",
+      img: Aditya,
+    },
+
+    {
+      Name: "Tushar Singh",
+      role: "Event Cordinator",
+      github: "",
+      linkedin: "https://www.linkedin.com/in/ankita-singh-894b561b8/",
+      img: Tusharr,
+    },
+
     {
       Name: "Kashish",
       role: "Documentation Head",
       github: "",
-      linkedin: "https://www.linkedin.com/in/kashish-koli-696942242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      img: Kashish
-    }
+      linkedin:
+        "https://www.linkedin.com/in/kashish-koli-696942242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      img: Kashish,
+    },
   ],
   [
     //Array 4
@@ -361,23 +375,24 @@ const TeamInfo = [
       Name: "Paakhi Sharma",
       role: "Event Management, Social Media and Publicity",
       github: "",
-      linkedin: "https://www.linkedin.com/in/paakhi-sharma-48123122a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-      img: Paakhi
+      linkedin:
+        "https://www.linkedin.com/in/paakhi-sharma-48123122a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      img: Paakhi,
     },
     {
       Name: "Sajal Kumar",
       role: "Event Management Head",
       github: "",
       linkedin: "",
-      img: Sajal
+      img: Sajal,
     },
     {
-      Name: "Sakshi Gupta",
-      role: "Co-ordinator",
+      Name: "Bhavik Aggarwal",
+      role: "Logistics Head",
       github: "",
       linkedin: "",
-      img: Sakshi
-    }
+      img: Bhavik,
+    },
   ],
   [
     //Array 5
@@ -386,35 +401,26 @@ const TeamInfo = [
       role: "Content and Documentation Head",
       github: "https://github.com/satyam2k3",
       linkedin: "https://www.linkedin.com/in/satyam-solanki-b5258621b/",
-      img: Satyam
+      img: Satyam,
     },
+
     {
-      Name: "Tanmay Singh",
-      role: "Organizer",
+      Name: "Bhavya Jain",
+      role: "Technical Team Head",
       github: "",
-      linkedin: "https://www.linkedin.com/in/tanmay-dahiya-45029822a/",
-      img: Tanmay
+      linkedin:
+        "https://www.linkedin.com/in/bhavya-jain-33262627a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      img: Bhavya,
     },
     {
-      Name: "Tisha Chabbra",
-      role: "Event Manager",
-      github: "https://github.com/Tishachhabra",
-      linkedin: "https://www.linkedin.com/in/tisha-chhabra ",
-      img: Tisha
-    }
-  ],
-  [
-    //Array 6
-    {
-      Name: "Tushar Singh",
-      role: "Event Cordinator",
+      Name: "Bhrigu Tayal",
+      role: "Publicity Head",
       github: "",
-      linkedin: "https://www.linkedin.com/in/ankita-singh-894b561b8/",
-      img: Tusharr
+      linkedin:
+        "https://www.linkedin.com/in/bhrigu-tayal-0aa469212/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      img: Bhrigu,
     },
-    
   ],
-  
 ];
 
 /** Instructions
@@ -439,62 +445,66 @@ const TeamInfo = [
 //     {src: noticebard, link: ""},
 //     {src: grabon, link: ""},
 //     {src: pharmeasy, link: ""}
-//   ], //Array 2 
+//   ], //Array 2
 //   [
 //     {src: letsgrowmore, link: ""},
 //     {src: newton, link: ""},
 //     {src: metvylearn, link: ""}
-//   ], //Array 4 
+//   ], //Array 4
 //   [
 //     {src: securityella, link: ""},
 //     {src: workadventure, link: ""}
 //   ],
 // ];
 
-const eventpartner = [[
-  {src: voidimg, link: ""},
-  {src: workadventure, link: ""},
-  {src: voidimg, link: ""}
-]
+const eventpartner = [
+  [
+    { src: voidimg, link: "" },
+    { src: workadventure, link: "" },
+    { src: voidimg, link: "" },
+  ],
 ];
 
-const platinumsponsor = [[
-  {src: devfolio, link: "https://devfolio.co"},
-  {src: newton, link: ""},
-  {src: polygon, link: "https://polygon.technology/"}
-]
+const platinumsponsor = [
+  [
+    { src: devfolio, link: "https://devfolio.co" },
+    { src: newton, link: "" },
+    { src: polygon, link: "https://polygon.technology/" },
+  ],
 ];
 
-const goldsponsor = [[
-  {src: tezos, link: "https://tezos.com"},
-  {src: filecoin, link: "https://filecoin.io"},
-  {src: celo, link: "https://celo.org"}
-]];
+const goldsponsor = [
+  [
+    { src: tezos, link: "https://tezos.com" },
+    { src: filecoin, link: "https://filecoin.io" },
+    { src: celo, link: "https://celo.org" },
+  ],
+];
 
 const silversponsor = [
   [
-    {src: grabon, link: ""},
-    {src: metvylearn, link: ""},
-    {src: letsgrowmore, link: ""},
+    { src: grabon, link: "" },
+    { src: metvylearn, link: "" },
+    { src: letsgrowmore, link: "" },
   ],
   [
-    {src: noticebard, link: ""},
-    {src: securityella, link: ""},
-    {src: mentorboxx, link: ""},
+    { src: noticebard, link: "" },
+    { src: securityella, link: "" },
+    { src: mentorboxx, link: "" },
   ],
-  [{src: pharmeasy, link: ""}]
+  [{ src: pharmeasy, link: "" }],
 ];
 
 const htc2023sponsor = [
   [
-    {src: devfolio, link: "https://devfolio.co",alt:"DEVFOLIO LOGO"},
-    {src: polygon, link: "https://polygon.technology/",alt:"POLYGON LOGO"},
-    {src: solana, link: "",alt:"SOLANA LOGO"},
+    { src: devfolio, link: "https://devfolio.co", alt: "DEVFOLIO LOGO" },
+    { src: polygon, link: "https://polygon.technology/", alt: "POLYGON LOGO" },
+    { src: solana, link: "", alt: "SOLANA LOGO" },
   ],
   [
-    {src: replit, link: "" , alt:"REPLIT LOGO"},    
-    {src: filecoin, link: "https://filecoin.io" , alt:"FILECOIN LOGO"},
-  ]
+    { src: replit, link: "", alt: "REPLIT LOGO" },
+    { src: filecoin, link: "https://filecoin.io", alt: "FILECOIN LOGO" },
+  ],
 ];
 
 /** Instructions
@@ -575,5 +585,5 @@ export {
   htc2023sponsor,
   TeamInfo,
   // Mentor as JudgesInfo,
-  frequentlyAskedQuestions
+  frequentlyAskedQuestions,
 };
