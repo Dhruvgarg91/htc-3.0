@@ -20,6 +20,7 @@
   /* background: url('../navbar/mountains_front.png'), url('../navbar/mountains_behind.png'), url('../navbar/stars.png'); */
 
   /* padding-bottom: 21rem; */
+  max-height: 100vh;
 }
 video{
 position:absolute;
