@@ -358,7 +358,7 @@ const TeamInfo = [
       Name: "Tushar Singh",
       role: "Event Co-ordinator",
       github: "",
-      linkedin: "https://www.linkedin.com/in/ankita-singh-894b561b8/",
+      linkedin: "",
       img: Tusharr,
     },
 
@@ -366,8 +366,7 @@ const TeamInfo = [
       Name: "Paakhi Sharma",
       role: "Event Co-ordinator",
       github: "",
-      linkedin:
-      "https://www.linkedin.com/in/paakhi-sharma-48123122a",
+      linkedin: "https://www.linkedin.com/in/paakhi-sharma-48123122a",
       img: Paakhi,
     },
   ],
@@ -384,8 +383,7 @@ const TeamInfo = [
       Name: "Kashish",
       role: "Documentation Head",
       github: "",
-      linkedin:
-        "https://www.linkedin.com/in/kashish-koli-696942242",
+      linkedin: "https://www.linkedin.com/in/kashish-koli-696942242",
       img: Kashish,
     },
     {
@@ -518,12 +516,12 @@ const htc2023sponsor = [
   [
     { src: devfolio, link: "https://devfolio.co", alt: "DEVFOLIO LOGO" },
     { src: polygon, link: "https://polygon.technology/", alt: "POLYGON LOGO" },
-    { src: solana, link: "", alt: "SOLANA LOGO" },
-  ],
-  [
+    // { src: solana, link: "", alt: "SOLANA LOGO" },
     { src: replit, link: "", alt: "REPLIT LOGO" },
-    { src: filecoin, link: "https://filecoin.io", alt: "FILECOIN LOGO" },
   ],
+  // [
+  //   { src: filecoin, link: "https://filecoin.io", alt: "FILECOIN LOGO" },
+  // ],
 ];
 
 /** Instructions
@@ -597,10 +595,10 @@ export {
   Prizeinfo,
   ThemesInfo,
   // sponsorLogos,
-  // eventpartner,
-  // platinumsponsor,
-  // goldsponsor,
-  // silversponsor,
+  eventpartner,
+  platinumsponsor,
+  goldsponsor,
+  silversponsor,
   htc2023sponsor,
   TeamInfo,
   // Mentor as JudgesInfo,

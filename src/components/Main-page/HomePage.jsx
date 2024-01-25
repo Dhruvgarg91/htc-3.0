@@ -25,12 +25,12 @@ import {
   TOP_SECTION,
   TeamInfo,
   // JudgesInfo,
-  // sponsorLogos,
+  sponsorLogos,
   frequentlyAskedQuestions,
-  // eventpartner,
-  // platinumsponsor,
-  // goldsponsor,
-  // silversponsor,
+  eventpartner,
+  platinumsponsor,
+  goldsponsor,
+  silversponsor,
   htc2023sponsor
 } from "../../Module/General.js";
 
@@ -107,10 +107,10 @@ export default function HomePage(props) {
     <div className="Whole_div" >
       <div className="color_sectionbg">
         <div className="color_section" id="home">
-        <video autoPlay muted loop>
-      <source src={backgroundimg4} type="video/mp4"/>
-     </video>
-     
+          <video autoPlay muted loop>
+            <source src={backgroundimg4} type="video/mp4" />
+          </video>
+
           <Container fluid >
             <Row className="Row info">
               <Col className="info-div" sm={12} lg={7} md={8}>
@@ -170,17 +170,17 @@ export default function HomePage(props) {
         <Row className="sponsorSection" id="sponsors">
 
           {/* <SponsorsHead /> */}
-          <h1 style={{fontFamily: "Times New Roman"}}>SPONSORS</h1><br></br>
-          <h1 style={{fontFamily: "Times New Roman"}}>COMING SOON</h1>
+          <h1 style={{ fontFamily: "Times New Roman" }}>SPONSORS</h1><br></br>
+          {/* <h1 style={{fontFamily: "Times New Roman"}}>COMING SOON</h1> */}
           <div className="eventpartners" data-aos="fade-left" data-aos-duration="700">
             {/* <h5 className="ssubhead">Our Sponsors</h5> */}
-            {/* {htc2023sponsor.map(SponsorGroup)} */}
+            {htc2023sponsor.map(SponsorGroup)}
           </div>
           {/* <div className="eventpartners">
             <h5 className="ssubhead">Event Partners</h5>
             {eventpartner.map(SponsorGroup)}
-          </div>
-          <div className="platsponsor">
+          </div> */}
+          {/* <div className="platsponsor">
             <h5 className="ssubhead">Platinum Sponsors</h5>
             {platinumsponsor.map(SponsorGroup)}
           </div>
@@ -206,7 +206,7 @@ export default function HomePage(props) {
         <Row className="team-section" id="team" >
           <h1 style={{ paddingTop: "6rem", color: "#ffe" }} data-aos='zoom-in' data-aos-duration='1000' >Our Team</h1>
           <div data-aos='fade-right' data-aos-duration='1000'>
-                {TeamInfo.map(TeamMembers)} 
+            {TeamInfo.map(TeamMembers)}
           </div>
         </Row>
         {/* {FOOTER.JOIN_TEAM.required && (
