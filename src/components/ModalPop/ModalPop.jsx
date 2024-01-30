@@ -12,7 +12,7 @@ const ModalPop = ({CancelModal}) => {
           </Modal.Header>
 
           <Modal.Body>
-            <p className='modalBody'>Coming soon on 26-27th october</p>
+            <p className='modalBody'>Coming soon on 13th March - 14th March 2024</p>
           </Modal.Body>
 
           <Modal.Footer>
