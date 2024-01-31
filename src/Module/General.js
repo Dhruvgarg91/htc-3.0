@@ -23,7 +23,7 @@ import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
 import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
 import polygon from "../Module/Assets/devfolio/Polygon_Logo-White.svg";
 import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
-import replit from "../Module/Assets/sponsorsLogos/replit.png";
+import replit from "../Module/Assets/sponsorsLogos/replit_copy.png";
 import solana from "../Module/Assets/sponsorsLogos/solanaLogo.png";
 
 import mentorboxx from "../Module/Assets/sponsorsLogos/mentorboxx.png";
@@ -82,7 +82,7 @@ const TOP_SECTION = {
     "Push your Limits!",
   ],
   SHORT_DESCRIPTION:
-    "Join us on 13th March - 14th March 2024 from across the nation for 24 hours of creation, innovation, & fun.",
+    "Join us on 13th March - 14th March 2024 at Bharti Vidyapeeth's College of Engineering, New Delhi for 24 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK: "./",
@@ -102,7 +102,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Hack the Crisis?",
   LONG_DESCRIPTION:
-    "It is a virtual/online hackathon in which all the participants will work in a given timeline and develop strategies to cope up with the effects and after-effects of the ongoing crisis around the world on peoples lives.War has a catastrophic effect on the health and well being of nations.During war, people can be exposed to many different traumatic events. That raises the chances of developing mental health problems—like post-traumatic stress disorder (PTSD), anxiety, and depression—and poorer life outcomes as adults.Effects of war also include mass destruction of cities and have long lasting effects on a countrys economy. Armed conflict has important indirect negative consequences on infrastructure, public health provision, and social order.",
+    "BVP-ISTE presents HTC 3.0, a 24-hour hackathon at Bharati Vidyapeeth College of Engineering, focusing on combating climate change. Beyond coding, it's an immersive experience where tech enthusiasts collaborate for actionable solutions. Engage in intense problem-solving, enjoy goodies, and connect with teams. HTC 3.0 aims to shape a sustainable future through innovation, building a positive tech community.",
   LOGO_EFFECT: true,
   LOGO: "",
 };
@@ -173,7 +173,7 @@ const ThemesInfo = [
   [
     // Array 4
     {
-      heading: "Investment",
+      heading: "Transportation",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
         "Revolutionize the travel experience through tech-driven solutions, offering personalized, sustainable, and immersive journeys",
@@ -242,38 +242,38 @@ const Prizeinfo = [
         "Best third overall project of the hackathon will win some awesome prizes",
     },
   ],
-  [
+  // [
     //Array 2
-    {
-      icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: "Best Solo",
-      content:
-        "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team",
-    },
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% ",
-    },
-    {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: "Best UI/UX",
-      content: "Project with most creative designs will be UI/UX track",
-    },
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App",
-      content: "Must use qoom in your project to win this category",
-    },
-    {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: "More prizes",
-      content: "More prizes will be revealed later",
-    },
-  ],
+  //   {
+  //     icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
+  //     type: "Best Solo",
+  //     content:
+  //       "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team",
+  //   },
+  //   {
+  //     icon: <i className="first fas fa-4x fa-trophy"></i>,
+  //     type: " Best Beginner",
+  //     content: "Your project will qualify for this category if atleast 50% ",
+  //   },
+  //   {
+  //     icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
+  //     type: "Best UI/UX",
+  //     content: "Project with most creative designs will be UI/UX track",
+  //   },
+  // ],
+  // [
+  //   //Array 3
+  //   {
+  //     icon: <i className="fas fa-4x sixth fa-male"></i>,
+  //     type: "Best Web App",
+  //     content: "Must use qoom in your project to win this category",
+  //   },
+  //   {
+  //     icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
+  //     type: "More prizes",
+  //     content: "More prizes will be revealed later",
+  //   },
+  // ],
 ];
 
 /** Instructions
