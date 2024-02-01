@@ -22,7 +22,10 @@ const Wrapper = styled.div`
     transition: top 1s;
     .nav-content {
       height: fit-content;
-      background-color: rgba(50, 13, 136);
+      width: 50%;
+      float: right;
+      border-radius: 1rem;
+      background-color: #515151;
     }
   }
 `;

@@ -55,7 +55,7 @@ import Sakshi from "./Assets/teami/Sakshi.png";
 import Satyam from "./Assets/teami/Satyam.png";
 import Tanmay from "./Assets/teami/Tanmay.png";
 import Tisha from "./Assets/teami/Tisha.png";
-import Tusharr from "./Assets/teami/Tushar.png";
+import Tushar from "./Assets/teami/Tushar.png";
 
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
@@ -82,7 +82,7 @@ const TOP_SECTION = {
     "Push your Limits!",
   ],
   SHORT_DESCRIPTION:
-    "Join us on 13th March - 14th March 2024 at Bharti Vidyapeeth's College of Engineering, New Delhi for 24 hours of creation, innovation, & fun.",
+    "Join us on 13th March - 14th March 2024 at Bharati Vidyapeeth's College of Engineering, New Delhi for 24 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK: "./",
@@ -102,7 +102,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Hack the Crisis?",
   LONG_DESCRIPTION:
-    "BVP-ISTE presents HTC 3.0, a 24-hour hackathon at Bharati Vidyapeeth College of Engineering, focusing on combating climate change. Beyond coding, it's an immersive experience where tech enthusiasts collaborate for actionable solutions. Engage in intense problem-solving, enjoy goodies, and connect with teams. HTC 3.0 aims to shape a sustainable future through innovation, building a positive tech community.",
+    `Participate in HTC 3.0, "Hack the Crisis", a distinguished 24-hour hackathon taking place on March 13th and 14th, 2024, at Bharati Vidyapeeth College of Engineering, New Delhi. This event is dedicated to addressing a significant challenge: climate change. We invite you to collaborate, leveraging your skills to devise innovative solutions for the betterment of our planet. HTC 3.0 transcends being merely a competition; it stands as an opportunity to effect substantial change. Let's elevate HTC 3.0 into an indelible moment for positive change and innovation, with a focal point on the imperative theme of climate change. We welcome you to be part of this meaningful journey, contributing your expertise towards a sustainable and impactful future.`,
   LOGO_EFFECT: true,
   LOGO: "",
 };
@@ -359,7 +359,7 @@ const TeamInfo = [
       role: "Event Co-ordinator",
       github: "",
       linkedin: "",
-      img: Tusharr,
+      img: Tushar,
     },
 
     {
