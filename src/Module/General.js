@@ -41,7 +41,7 @@ import voidimg from "../Module/Assets/sponsorsLogos/voidimg.png";
 import Aditya from "./Assets/teami/Aditya.png";
 import Armaan from "./Assets/teami/Armaan Jain.png";
 import Bhavik from "./Assets/teami/Bhavik.png";
-import Bhavya from "./Assets/teami/Bhavya.png";
+import Bhavya from "./Assets/teami/Bhavya.jpg";
 import Bhrigu from "./Assets/teami/Bhrigu.png";
 // import Divya from "./Assets/teami/Divya.png";
 import Anmol from './Assets/teami/Anmol_Pokhriyal.jpg'
@@ -53,7 +53,7 @@ import Paakhi from "./Assets/teami/Paakhi Sharma.png";
 import Sajal from "./Assets/teami/Sajal.png";
 import Sakshi from "./Assets/teami/Sakshi.png";
 import Satyam from "./Assets/teami/Satyam.png";
-import Tanmay from "./Assets/teami/Tanmay.png";
+import Tanmay from "./Assets/teami/Tanmay.jpeg";
 import Tisha from "./Assets/teami/Tisha.png";
 import Tushar from "./Assets/teami/Tushar.png";
 
