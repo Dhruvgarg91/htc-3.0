@@ -533,7 +533,7 @@ const frequentlyAskedQuestions = [
       img: "1.png",
       label: "What is a hackathon?",
       content:
-        "Hackathon is a tool to drive sustained innovation and crowdsource solutions to address pressing real-life business problems and social issues. ",
+        "Hackathon is a tool to drive sustained innovation and crowdsource solutions to address pressing real-life business problems and social issues!",
     },
   ],
   [
@@ -542,7 +542,7 @@ const frequentlyAskedQuestions = [
 
       label: "Who can attend?",
       content:
-        "Anyone is welcome to participate in this event. While experience coding and programming is a huge plus, teams will also need people with strong presentation skills and brilliant ideas.",
+        "Anyone is welcome to participate in this event. While experience in coding and programming is a huge plus, teams will also need individuals with strong presentation skills and brilliant ideas!",
     },
   ],
   [
@@ -560,7 +560,7 @@ const frequentlyAskedQuestions = [
 
       label: "How team formation works?",
       content:
-        "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!",
+        "You can form a team with a maximum of 4 members. If you don't have a team, there will be plenty of opportunities for you to meet hackers and form a team.",
     },
   ],
   [
@@ -574,7 +574,7 @@ const frequentlyAskedQuestions = [
 
       label: "How teams will be judged?",
       content:
-        "There will be a preliminary round of judging in which teams will present their solution. Only teams that are successful in this preliminary round will present to the larger group in the final round.",
+        "There will be a preliminary round of judging in which teams will present their solutions. Only teams that are successful in this preliminary round will proceed to present to the larger group in the final round.",
     },
   ],
   [
@@ -582,7 +582,7 @@ const frequentlyAskedQuestions = [
       img: "6.png",
 
       label: "Will there be swag?",
-      content: "Yes! Participants will be recieveing swag!. 😎",
+      content: "Yes! Participants will be receiving swag!. 😎",
     },
   ],
 ];
