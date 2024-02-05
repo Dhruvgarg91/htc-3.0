@@ -91,9 +91,9 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: "https://instagram.com/hack_the_crisis_?igshid=YmMyMTA2M2Y=",
-  discord: "https://discord.gg/vykTKVCXM6",
-  linkedin: "https://www.linkedin.com/in/hack-the-crisis-65b80b211",
-  twitter: " https://twitter.com/HackTheCrisis1?t=EUvOgiyUAeuc_1l8NEKqAg&s=08",
+  discord: "https://discord.gg/sBNExH8tGy",
+  linkedin: "",
+  twitter: " ",
   devpost: "",
   email: "mailto:hackthecrisis2021@gmail.com",
   mail: "hackthecrisis2021@gmail.com",
