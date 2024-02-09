@@ -19,9 +19,10 @@
 // sponsors
 
 import devfolio from "../Module/Assets/devfolio/Devfolio_Logo-White.svg";
-import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
-import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
 import polygon from "../Module/Assets/devfolio/Polygon_Logo-White.svg";
+import ETHIndia from "../Module/Assets/devfolio/ETHIndia.svg";
+import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
+import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
 import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
 import replit from "../Module/Assets/sponsorsLogos/replit_copy.png";
 import solana from "../Module/Assets/sponsorsLogos/solanaLogo.png";
@@ -41,7 +42,7 @@ import voidimg from "../Module/Assets/sponsorsLogos/voidimg.png";
 import Aditya from "./Assets/teami/Aditya.png";
 import Armaan from "./Assets/teami/Armaan Jain.png";
 import Bhavik from "./Assets/teami/Bhavik.png";
-import Bhavya from "./Assets/teami/Bhavya.png";
+import Bhavya from "./Assets/teami/Bhavya.jpg";
 import Bhrigu from "./Assets/teami/Bhrigu.png";
 // import Divya from "./Assets/teami/Divya.png";
 import Anmol from './Assets/teami/Anmol_Pokhriyal.jpg'
@@ -53,7 +54,7 @@ import Paakhi from "./Assets/teami/Paakhi Sharma.png";
 import Sajal from "./Assets/teami/Sajal.png";
 import Sakshi from "./Assets/teami/Sakshi.png";
 import Satyam from "./Assets/teami/Satyam.png";
-import Tanmay from "./Assets/teami/Tanmay.png";
+import Tanmay from "./Assets/teami/Tanmay.jpeg";
 import Tisha from "./Assets/teami/Tisha.png";
 import Tushar from "./Assets/teami/Tushar.png";
 
@@ -91,9 +92,9 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: "https://instagram.com/hack_the_crisis_?igshid=YmMyMTA2M2Y=",
-  discord: "https://discord.gg/vykTKVCXM6",
-  linkedin: "https://www.linkedin.com/in/hack-the-crisis-65b80b211",
-  twitter: " https://twitter.com/HackTheCrisis1?t=EUvOgiyUAeuc_1l8NEKqAg&s=08",
+  discord: "https://discord.gg/sBNExH8tGy",
+  linkedin: "https://www.linkedin.com/in/hack-the-crisis-65b80b211/",
+  twitter: " ",
   devpost: "",
   email: "mailto:hackthecrisis2021@gmail.com",
   mail: "hackthecrisis2021@gmail.com",
@@ -517,7 +518,7 @@ const htc2023sponsor = [
     { src: devfolio, link: "https://devfolio.co", alt: "DEVFOLIO LOGO" },
     { src: polygon, link: "https://polygon.technology/", alt: "POLYGON LOGO" },
     // { src: solana, link: "", alt: "SOLANA LOGO" },
-    { src: replit, link: "", alt: "REPLIT LOGO" },
+    { src: ETHIndia, link: "", alt: "ETH INDIA LOGO" },
   ],
   // [
   //   { src: filecoin, link: "https://filecoin.io", alt: "FILECOIN LOGO" },
@@ -533,7 +534,7 @@ const frequentlyAskedQuestions = [
       img: "1.png",
       label: "What is a hackathon?",
       content:
-        "Hackathon is a tool to drive sustained innovation and crowdsource solutions to address pressing real-life business problems and social issues. ",
+        "Hackathon is a tool to drive sustained innovation and crowdsource solutions to address pressing real-life business problems and social issues!",
     },
   ],
   [
@@ -542,7 +543,7 @@ const frequentlyAskedQuestions = [
 
       label: "Who can attend?",
       content:
-        "Anyone is welcome to participate in this event. While experience coding and programming is a huge plus, teams will also need people with strong presentation skills and brilliant ideas.",
+        "Anyone is welcome to participate in this event. While experience in coding and programming is a huge plus, teams will also need individuals with strong presentation skills and brilliant ideas!",
     },
   ],
   [
@@ -560,7 +561,7 @@ const frequentlyAskedQuestions = [
 
       label: "How team formation works?",
       content:
-        "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!",
+        "You can form a team with a maximum of 4 members. If you don't have a team, there will be plenty of opportunities for you to meet hackers and form a team.",
     },
   ],
   [
@@ -574,7 +575,7 @@ const frequentlyAskedQuestions = [
 
       label: "How teams will be judged?",
       content:
-        "There will be a preliminary round of judging in which teams will present their solution. Only teams that are successful in this preliminary round will present to the larger group in the final round.",
+        "There will be a preliminary round of judging in which teams will present their solutions. Only teams that are successful in this preliminary round will proceed to present to the larger group in the final round.",
     },
   ],
   [
@@ -582,7 +583,7 @@ const frequentlyAskedQuestions = [
       img: "6.png",
 
       label: "Will there be swag?",
-      content: "Yes! Participants will be recieveing swag!. 😎",
+      content: "Yes! Participants will be receiving swag!. 😎",
     },
   ],
 ];

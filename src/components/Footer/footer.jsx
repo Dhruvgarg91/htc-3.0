@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import "./footer.scss";
 import Insta from "./icons8-instagram.svg";
 import Dis from "./icons8-discord.svg";
@@ -8,9 +8,9 @@ import DevPost from "./icons8-dev-post.svg";
 import PrivacyPolicy from "./Privacy policy.pdf";
 import TermsOfUse from "./Terms of use.pdf";
 import Twitter from "./icons8-twitter.svg";
-import {Btn} from "../Top-division-components/Top-division-components.jsx";
+import { Btn } from "../Top-division-components/Top-division-components.jsx";
 // import cross from "./cross.svg";
-import {SOCIALS, FOOTER} from "../../Module/General";
+import { SOCIALS, FOOTER } from "../../Module/General";
 
 // function GithubTemplate({hideTemplate}) {
 //   return (
@@ -87,7 +87,13 @@ export default function Footer() {
           </div>
         </div>
         <div className="Register_a">
-          <a
+          <div
+            className="apply-button"
+            data-hackathon-slug="hackthecrisis30"
+            data-button-theme="light"
+            style={{ height: "44px", width: "312px" }}
+          ></div>
+          {/* <a
             href="https://hack-the-crisis-3.devfolio.co/"
             rel="noreferrer"
             target="_blank"
@@ -104,7 +110,7 @@ export default function Footer() {
               </svg>
               Apply With Devfolio
             </button>
-          </a>
+          </a> */}
           {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
