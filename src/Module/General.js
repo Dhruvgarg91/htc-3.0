@@ -19,9 +19,10 @@
 // sponsors
 
 import devfolio from "../Module/Assets/devfolio/Devfolio_Logo-White.svg";
-import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
-import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
 import polygon from "../Module/Assets/devfolio/Polygon_Logo-White.svg";
+import ETHIndia from "../Module/Assets/devfolio/ETHIndia.svg";
+import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
+import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
 import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
 import replit from "../Module/Assets/sponsorsLogos/replit_copy.png";
 import solana from "../Module/Assets/sponsorsLogos/solanaLogo.png";
@@ -92,7 +93,7 @@ const TOP_SECTION = {
 const SOCIALS = {
   instagram: "https://instagram.com/hack_the_crisis_?igshid=YmMyMTA2M2Y=",
   discord: "https://discord.gg/sBNExH8tGy",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/hack-the-crisis-65b80b211/",
   twitter: " ",
   devpost: "",
   email: "mailto:hackthecrisis2021@gmail.com",
@@ -517,7 +518,7 @@ const htc2023sponsor = [
     { src: devfolio, link: "https://devfolio.co", alt: "DEVFOLIO LOGO" },
     { src: polygon, link: "https://polygon.technology/", alt: "POLYGON LOGO" },
     // { src: solana, link: "", alt: "SOLANA LOGO" },
-    { src: replit, link: "", alt: "REPLIT LOGO" },
+    { src: ETHIndia, link: "", alt: "ETH INDIA LOGO" },
   ],
   // [
   //   { src: filecoin, link: "https://filecoin.io", alt: "FILECOIN LOGO" },
