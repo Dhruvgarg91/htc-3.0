@@ -73,18 +73,18 @@ export default function Footer() {
               <img src={Mail} className="svg-icon" width={"100%"} alt="" />
             </a>
           </div>
-          <div className="social-icon">
+          {/* <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.twitter}>
-              {/* <img src={Twitter} alt="" /> */}
+              
               <i className="fab fa-3x fa-twitter"></i>
             </a>
           </div>
           <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
-              {/* <img src={DevPost} alt="" /> */}
+              
               <i className="fab fa-3x fa-dev"></i>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="Register_a">
           <div
