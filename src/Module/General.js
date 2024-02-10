@@ -91,7 +91,7 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://instagram.com/hack_the_crisis_?igshid=YmMyMTA2M2Y=",
+  instagram: "https://instagram.com/hack_the_crisis_/",
   discord: "https://discord.gg/sBNExH8tGy",
   linkedin: "https://www.linkedin.com/in/hack-the-crisis-65b80b211/",
   twitter: " ",
