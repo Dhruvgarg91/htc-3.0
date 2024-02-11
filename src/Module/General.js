@@ -66,12 +66,12 @@ import Tushar from "./Assets/teami/Tushar.png";
 import boy from "./Assets/boy.png";
 
 // importing theme images
-import eduImg from "./Assets/theme_img/ed01.jpg";
-import healthImg from "./Assets/Themes/smart-hospital.jpg";
-import tradeImg from "./Assets/theme_img/trade.jpg";
-import smartCityImg from "./Assets/theme_img/smart_city01.jpg";
-import investImg from "./Assets/theme_img/invest_03.jpg";
-import openInoImg from "./Assets/theme_img/open_ino_02.jpg";
+import eduImg from "./Assets/theme_img/ed01.svg";
+import healthImg from "./Assets/theme_img/smart-hospital.svg";
+import tradeImg from "./Assets/theme_img/trade.svg";
+import smartCityImg from "./Assets/theme_img/smart_city01.svg";
+import investImg from "./Assets/theme_img/invest_03.svg";
+import openInoImg from "./Assets/theme_img/open_ino_02.svg";
 import faqImg from "./Assets/theme_img/faq01.jpg";
 
 const TOP_SECTION = {
