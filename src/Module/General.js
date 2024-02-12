@@ -19,11 +19,12 @@
 // sponsors
 
 import devfolio from "../Module/Assets/devfolio/Devfolio_Logo-White.svg";
-import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
-import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
 import polygon from "../Module/Assets/devfolio/Polygon_Logo-White.svg";
+import ETHIndia from "../Module/Assets/devfolio/ETHIndia.svg";
+import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
+import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
 import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
-import replit from "../Module/Assets/sponsorsLogos/replit.png";
+import replit from "../Module/Assets/sponsorsLogos/replit_copy.png";
 import solana from "../Module/Assets/sponsorsLogos/solanaLogo.png";
 
 import mentorboxx from "../Module/Assets/sponsorsLogos/mentorboxx.png";
@@ -41,9 +42,11 @@ import voidimg from "../Module/Assets/sponsorsLogos/voidimg.png";
 import Aditya from "./Assets/teami/Aditya.png";
 import Armaan from "./Assets/teami/Armaan Jain.png";
 import Bhavik from "./Assets/teami/Bhavik.png";
-import Bhavya from "./Assets/teami/Bhavya.png";
+import Bhavya from "./Assets/teami/Bhavya.jpg";
 import Bhrigu from "./Assets/teami/Bhrigu.png";
-import Divya from "./Assets/teami/Divya.png";
+// import Divya from "./Assets/teami/Divya.png";
+import Anmol from './Assets/teami/Anmol_Pokhriyal.jpg'
+import Shreya from './Assets/teami/shreya_sahoo.jpg'
 import Ela from "./Assets/teami/Ela.png";
 import Jasmine from "./Assets/teami/Jasmine.png";
 import Kashish from "./Assets/teami/Kashish.png";
@@ -51,9 +54,9 @@ import Paakhi from "./Assets/teami/Paakhi Sharma.png";
 import Sajal from "./Assets/teami/Sajal.png";
 import Sakshi from "./Assets/teami/Sakshi.png";
 import Satyam from "./Assets/teami/Satyam.png";
-import Tanmay from "./Assets/teami/Tanmay.png";
+import Tanmay from "./Assets/teami/Tanmay.jpeg";
 import Tisha from "./Assets/teami/Tisha.png";
-import Tusharr from "./Assets/teami/Tushar.png";
+import Tushar from "./Assets/teami/Tushar.png";
 
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
@@ -63,12 +66,12 @@ import Tusharr from "./Assets/teami/Tushar.png";
 import boy from "./Assets/boy.png";
 
 // importing theme images
-import eduImg from "./Assets/theme_img/ed01.jpg";
-import healthImg from "./Assets/Themes/smart-hospital.jpg";
-import tradeImg from "./Assets/theme_img/trade.jpg";
-import smartCityImg from "./Assets/theme_img/smart_city01.jpg";
-import investImg from "./Assets/theme_img/invest_03.jpg";
-import openInoImg from "./Assets/theme_img/open_ino_02.jpg";
+import eduImg from "./Assets/theme_img/ed01.svg";
+import healthImg from "./Assets/theme_img/smart-hospital.svg";
+import tradeImg from "./Assets/theme_img/trade.svg";
+import smartCityImg from "./Assets/theme_img/smart_city01.svg";
+import investImg from "./Assets/theme_img/invest_03.svg";
+import openInoImg from "./Assets/theme_img/open_ino_02.svg";
 import faqImg from "./Assets/theme_img/faq01.jpg";
 
 const TOP_SECTION = {
@@ -80,7 +83,7 @@ const TOP_SECTION = {
     "Push your Limits!",
   ],
   SHORT_DESCRIPTION:
-    "Join us on 7th March - 8th March 2024 from across the nation for 24 hours of creation, innovation, & fun.",
+    "Join us on 13th March - 14th March 2024 at Bharati Vidyapeeth's College of Engineering, New Delhi for 24 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK: "./",
@@ -88,10 +91,10 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://instagram.com/hack_the_crisis_?igshid=YmMyMTA2M2Y=",
-  discord: "https://discord.gg/vykTKVCXM6",
-  linkedin: "https://www.linkedin.com/in/hack-the-crisis-65b80b211",
-  twitter: " https://twitter.com/HackTheCrisis1?t=EUvOgiyUAeuc_1l8NEKqAg&s=08",
+  instagram: "https://instagram.com/hack_the_crisis_/",
+  discord: "https://discord.gg/sBNExH8tGy",
+  linkedin: "https://www.linkedin.com/in/hack-the-crisis-65b80b211/",
+  twitter: " ",
   devpost: "",
   email: "mailto:hackthecrisis2021@gmail.com",
   mail: "hackthecrisis2021@gmail.com",
@@ -100,7 +103,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Hack the Crisis?",
   LONG_DESCRIPTION:
-    "It is a virtual/online hackathon in which all the participants will work in a given timeline and develop strategies to cope up with the effects and after-effects of the ongoing crisis around the world on peoples lives.War has a catastrophic effect on the health and well being of nations.During war, people can be exposed to many different traumatic events. That raises the chances of developing mental health problems—like post-traumatic stress disorder (PTSD), anxiety, and depression—and poorer life outcomes as adults.Effects of war also include mass destruction of cities and have long lasting effects on a countrys economy. Armed conflict has important indirect negative consequences on infrastructure, public health provision, and social order.",
+    `Participate in HTC 3.0, "Hack the Crisis", a distinguished 24-hour hackathon taking place on March 13th and 14th, 2024, at Bharati Vidyapeeth College of Engineering, New Delhi. This event is dedicated to addressing a significant challenge: climate change. We invite you to collaborate, leveraging your skills to devise innovative solutions for the betterment of our planet. HTC 3.0 transcends being merely a competition; it stands as an opportunity to effect substantial change. Let's elevate HTC 3.0 into an indelible moment for positive change and innovation, with a focal point on the imperative theme of climate change. We welcome you to be part of this meaningful journey, contributing your expertise towards a sustainable and impactful future.`,
   LOGO_EFFECT: true,
   LOGO: "",
 };
@@ -171,7 +174,7 @@ const ThemesInfo = [
   [
     // Array 4
     {
-      heading: "Investment",
+      heading: "Transportation",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
         "Revolutionize the travel experience through tech-driven solutions, offering personalized, sustainable, and immersive journeys",
@@ -240,38 +243,38 @@ const Prizeinfo = [
         "Best third overall project of the hackathon will win some awesome prizes",
     },
   ],
-  [
+  // [
     //Array 2
-    {
-      icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: "Best Solo",
-      content:
-        "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team",
-    },
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% ",
-    },
-    {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: "Best UI/UX",
-      content: "Project with most creative designs will be UI/UX track",
-    },
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App",
-      content: "Must use qoom in your project to win this category",
-    },
-    {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: "More prizes",
-      content: "More prizes will be revealed later",
-    },
-  ],
+  //   {
+  //     icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
+  //     type: "Best Solo",
+  //     content:
+  //       "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team",
+  //   },
+  //   {
+  //     icon: <i className="first fas fa-4x fa-trophy"></i>,
+  //     type: " Best Beginner",
+  //     content: "Your project will qualify for this category if atleast 50% ",
+  //   },
+  //   {
+  //     icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
+  //     type: "Best UI/UX",
+  //     content: "Project with most creative designs will be UI/UX track",
+  //   },
+  // ],
+  // [
+  //   //Array 3
+  //   {
+  //     icon: <i className="fas fa-4x sixth fa-male"></i>,
+  //     type: "Best Web App",
+  //     content: "Must use qoom in your project to win this category",
+  //   },
+  //   {
+  //     icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
+  //     type: "More prizes",
+  //     content: "More prizes will be revealed later",
+  //   },
+  // ],
 ];
 
 /** Instructions
@@ -296,7 +299,7 @@ const TeamInfo = [
     //Array 1
     {
       Name: "Tanmay Singh",
-      role: "Organizer",
+      role: "Event Organizer",
       github: "",
       linkedin: "https://www.linkedin.com/in/tanmay-dahiya-45029822a/",
       img: Tanmay,
@@ -336,7 +339,7 @@ const TeamInfo = [
 
     {
       Name: "Sakshi Gupta",
-      role: " Event Co-ordinator",
+      role: " Event Manager",
       github: "",
       linkedin: "",
       img: Sakshi,
@@ -346,7 +349,7 @@ const TeamInfo = [
     //Array 3
     {
       Name: "Aditya Mishra",
-      role: "Event Cordinator",
+      role: "Event Co-ordinator",
       github: "https://github.com/adityanath0777",
       linkedin: "https://www.linkedin.com/in/aditya-mishra-0777am/",
       img: Aditya,
@@ -354,31 +357,22 @@ const TeamInfo = [
 
     {
       Name: "Tushar Singh",
-      role: "Event Cordinator",
+      role: "Event Co-ordinator",
       github: "",
-      linkedin: "https://www.linkedin.com/in/ankita-singh-894b561b8/",
-      img: Tusharr,
+      linkedin: "",
+      img: Tushar,
     },
 
     {
-      Name: "Kashish",
-      role: "Documentation Head",
+      Name: "Paakhi Sharma",
+      role: "Event Co-ordinator",
       github: "",
-      linkedin:
-        "https://www.linkedin.com/in/kashish-koli-696942242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      img: Kashish,
+      linkedin: "https://www.linkedin.com/in/paakhi-sharma-48123122a",
+      img: Paakhi,
     },
   ],
   [
     //Array 4
-    {
-      Name: "Paakhi Sharma",
-      role: "Event Management, Social Media and Publicity",
-      github: "",
-      linkedin:
-        "https://www.linkedin.com/in/paakhi-sharma-48123122a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-      img: Paakhi,
-    },
     {
       Name: "Sajal Kumar",
       role: "Event Management Head",
@@ -387,29 +381,36 @@ const TeamInfo = [
       img: Sajal,
     },
     {
+      Name: "Kashish",
+      role: "Documentation Head",
+      github: "",
+      linkedin: "https://www.linkedin.com/in/kashish-koli-696942242",
+      img: Kashish,
+    },
+    {
+      Name: "Satyam Solanki",
+      role: "Documentation Head",
+      github: "https://github.com/satyam2k3",
+      linkedin: "https://www.linkedin.com/in/satyam-solanki-b5258621b/",
+      img: Satyam,
+    },
+  ],
+  [
+    //Array 5
+    {
       Name: "Bhavik Aggarwal",
       role: "Logistics Head",
       github: "",
       linkedin: "",
       img: Bhavik,
     },
-  ],
-  [
-    //Array 5
-    {
-      Name: "Satyam Solanki",
-      role: "Content and Documentation Head",
-      github: "https://github.com/satyam2k3",
-      linkedin: "https://www.linkedin.com/in/satyam-solanki-b5258621b/",
-      img: Satyam,
-    },
 
     {
       Name: "Bhavya Jain",
-      role: "Technical Team Head",
+      role: "Technical Head",
       github: "",
       linkedin:
-        "https://www.linkedin.com/in/bhavya-jain-33262627a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "https://www.linkedin.com/in/bhavya-jain-33262627a",
       img: Bhavya,
     },
     {
@@ -417,8 +418,25 @@ const TeamInfo = [
       role: "Publicity Head",
       github: "",
       linkedin:
-        "https://www.linkedin.com/in/bhrigu-tayal-0aa469212/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "https://www.linkedin.com/in/bhrigu-tayal-0aa469212",
       img: Bhrigu,
+    },
+  ],
+  [
+    // Array 6
+    {
+      Name: "Shreya Sahoo",
+      role: "Design Head",
+      github: "",
+      linkedin: "",
+      img: Shreya,
+    },
+    {
+      Name: "Anmol Pokhriyal",
+      role: "Design Head",
+      github: "https://github.com/NiMBuWaLLa",
+      linkedin: "https://www.linkedin.com/in/anmol-pokhriyal/",
+      img: Anmol,
     },
   ],
 ];
@@ -499,12 +517,12 @@ const htc2023sponsor = [
   [
     { src: devfolio, link: "https://devfolio.co", alt: "DEVFOLIO LOGO" },
     { src: polygon, link: "https://polygon.technology/", alt: "POLYGON LOGO" },
-    { src: solana, link: "", alt: "SOLANA LOGO" },
+    // { src: solana, link: "", alt: "SOLANA LOGO" },
+    { src: ETHIndia, link: "", alt: "ETH INDIA LOGO" },
   ],
-  [
-    { src: replit, link: "", alt: "REPLIT LOGO" },
-    { src: filecoin, link: "https://filecoin.io", alt: "FILECOIN LOGO" },
-  ],
+  // [
+  //   { src: filecoin, link: "https://filecoin.io", alt: "FILECOIN LOGO" },
+  // ],
 ];
 
 /** Instructions
@@ -516,7 +534,7 @@ const frequentlyAskedQuestions = [
       img: "1.png",
       label: "What is a hackathon?",
       content:
-        "Hackathon is a tool to drive sustained innovation and crowdsource solutions to address pressing real-life business problems and social issues. ",
+        "Hackathon is a tool to drive sustained innovation and crowdsource solutions to address pressing real-life business problems and social issues!",
     },
   ],
   [
@@ -525,7 +543,7 @@ const frequentlyAskedQuestions = [
 
       label: "Who can attend?",
       content:
-        "Anyone is welcome to participate in this event. While experience coding and programming is a huge plus, teams will also need people with strong presentation skills and brilliant ideas.",
+        "Anyone is welcome to participate in this event. While experience in coding and programming is a huge plus, teams will also need individuals with strong presentation skills and brilliant ideas!",
     },
   ],
   [
@@ -543,7 +561,7 @@ const frequentlyAskedQuestions = [
 
       label: "How team formation works?",
       content:
-        "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!",
+        "You can form a team with a maximum of 4 members. If you don't have a team, there will be plenty of opportunities for you to meet hackers and form a team.",
     },
   ],
   [
@@ -557,7 +575,7 @@ const frequentlyAskedQuestions = [
 
       label: "How teams will be judged?",
       content:
-        "There will be a preliminary round of judging in which teams will present their solution. Only teams that are successful in this preliminary round will present to the larger group in the final round.",
+        "There will be a preliminary round of judging in which teams will present their solutions. Only teams that are successful in this preliminary round will proceed to present to the larger group in the final round.",
     },
   ],
   [
@@ -565,7 +583,7 @@ const frequentlyAskedQuestions = [
       img: "6.png",
 
       label: "Will there be swag?",
-      content: "Yes! Participants will be recieveing swag!. 😎",
+      content: "Yes! Participants will be receiving swag!. 😎",
     },
   ],
 ];
@@ -578,10 +596,10 @@ export {
   Prizeinfo,
   ThemesInfo,
   // sponsorLogos,
-  // eventpartner,
-  // platinumsponsor,
-  // goldsponsor,
-  // silversponsor,
+  eventpartner,
+  platinumsponsor,
+  goldsponsor,
+  silversponsor,
   htc2023sponsor,
   TeamInfo,
   // Mentor as JudgesInfo,
