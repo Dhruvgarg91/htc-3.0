@@ -1,6 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import HomePage from "../Main-page/HomePage";
-import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Routes,
+} from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import hamLogo from "./ham.svg";
 import logoClose from "./ham-c.svg";
@@ -14,11 +19,11 @@ const Wrapper = styled.div`
   margin-top: 0;
   @media (max-width: 788px) {
     margin: 0;
-    display: ${props => (props.toggle ? "none" : "static")};
+    display: ${(props) => (props.toggle ? "none" : "static")};
     height: 100vh;
     width: 100vw;
     position: fixed;
-    top: ${props => (props.toggle ? "-1000px" : "0px")};
+    top: ${(props) => (props.toggle ? "-1000px" : "0px")};
     transition: top 1s;
     .nav-content {
       height: fit-content;
@@ -43,7 +48,7 @@ const NAVBAR = () => {
 
   const navigation = useRef();
 
-  const listenScrollEvent = e => {
+  const listenScrollEvent = (e) => {
     if (window.scrollY > 800) {
       setColor("#222243");
       // setColor("#322e33");
@@ -66,12 +71,12 @@ const NAVBAR = () => {
   };
 
   useEffect(() => {
-    document.addEventListener("mousedown", e =>
+    document.addEventListener("mousedown", (e) =>
       handleOutsideCick(e, navigation)
     );
 
     return () => {
-      document.removeEventListener("mousedown", e =>
+      document.removeEventListener("mousedown", (e) =>
         handleOutsideCick(e, navigation)
       );
     };
@@ -80,10 +85,14 @@ const NAVBAR = () => {
   return (
     <Router>
       <nav className="nav_bar" style={{ backgroundColor: color }}>
+        <Link to={`#home`}>
+          <div className="header_logo_init">
+            <img alt="img" className="header--logo" src="logo3.1.png" />
+          </div>
+        </Link>
         <Wrapper toggle={toggle} className="nav-wrapper">
           <div className="nav-content" ref={navigation}>
             <div className="my-container">
-              
               <ul>
                 {/* Left link section */}
                 {/* <li> */}
@@ -130,11 +139,14 @@ const NAVBAR = () => {
 
                 {/* middle link section */}
                 <li className="headerlogo_container">
-                  <Link to={`#home`} >
+                  <Link to={`#home`}>
                     <div className="header_logo">
-                      <img alt="img" className="header--logo" src="logo3.1.png" />
+                      <img
+                        alt="img"
+                        className="header--logo"
+                        src="logo3.1.png"
+                      />
                     </div>
-
                   </Link>
                 </li>
 
@@ -169,7 +181,6 @@ const NAVBAR = () => {
                   src={logoClose}
                 />
               </ul>
-              
             </div>
           </div>
           <div className="ease" />
@@ -188,7 +199,7 @@ const NAVBAR = () => {
         </Route>
          */}
 
-         {/* <Route path="/" element={<HomePage />} /> */}
+        {/* <Route path="/" element={<HomePage />} /> */}
       </Routes>
     </Router>
   );
