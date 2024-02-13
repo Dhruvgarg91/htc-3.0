@@ -29,7 +29,8 @@ const Wrapper = styled.div`
       height: fit-content;
       width: 50%;
       float: right;
-      border-radius: 1rem;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
       background-color: #515151;
     }
   }
