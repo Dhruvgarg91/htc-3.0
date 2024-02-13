@@ -114,6 +114,12 @@
   }
 }
 
+@media (max-width: 450px){
+  .logoS > img{
+    width: 80vw;
+  }
+}
+
 @media (max-width: 570px) {
   .logoS {
     margin-top: 10rem;
@@ -122,6 +128,13 @@
 
   .Logo {
     margin: 0 auto;
+  }
+
+  .LogoSectionAbout h1 {
+    font-size: 3.3rem;
+  }
+  .LogoSectionAbout p {
+    font-size: 1.3rem;
   }
 }
 
