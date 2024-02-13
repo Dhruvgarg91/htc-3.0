@@ -1,10 +1,11 @@
 .mainCards {
   background: linear-gradient(#6a5fb9 10%, #141a2a);
   color: #fff;
-  margin: 4rem auto;
+  margin: 2rem 4rem;
   overflow: hidden;
-  height: 35rem;
-  width: 35rem;
+  height: 32rem;
+  width: 32rem;
+  border-radius: 1.4rem;
   box-shadow: 5px 5px 5px  rgb(30, 30, 30);
   /* box-shadow: rgba(208, 207, 207, 0.3) 0px 5px 15px; */
   /* box-shadow: rgba(255, 250, 250, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
@@ -52,6 +53,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-self: center;
   justify-content: center;
+  margin: auto;
 }
 
 .content {
@@ -68,13 +70,13 @@
 
 .content h1 {
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1.9rem;
   position: relative;
   bottom: 2rem;
 }
 
 .content p {
-  font-size: 20px; 
+  font-size: 1.7rem; 
   margin: 1rem;
   visibility: hidden;
   opacity: 0;
@@ -122,12 +124,17 @@
   transition: 0.5s;
 }
 
+@media only screen and (max-width: 1270px){
+  .mainCards{
+    margin: 2rem 2rem;
+  }
+}
+
 @media only screen and (max-width: 1041px) {
   .mainFAQ {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-self: center;
-    justify-content: center;
   }
 }
 
@@ -136,6 +143,5 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-self: center;
-    justify-content: center;
   }
 }
