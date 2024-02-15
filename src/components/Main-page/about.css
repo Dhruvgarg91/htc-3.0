@@ -17,21 +17,21 @@
 }
 
 .color_section {
-  /* background: url('../navbar/mountains_front.png'), url('../navbar/mountains_behind.png'), url('../navbar/stars.png'); */
-
-  /* padding-bottom: 21rem; */
-  max-height: 100vh;
+  position: relative;
+  /* max-height: 100vh; */
+  width: 100%;
 }
-video{
-position:absolute;
-top:0;
-left:0;
-
- min-width: 100vw;
-
-z-index: -1;
-opacity: 1.5; 
-
+.color_section video{
+  position:absolute;
+  top:0;
+  left:0;
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 1.5; 
+  
 }
 /* .color_sectionbg { */
   /* background: linear-gradient(#1f0c3c, #040507); */
@@ -225,11 +225,52 @@ padding: 10vh 0 10vh 0;
 
    
 }
+/* @media (max-width: 989px){
+  .logoSection {
+    align-items: center;
+    padding: 20vh 0vh 0 0vh;      
+  }
+    
+} */
+
 @media (max-width: 989px){
   .logoSection {
     /* text-align: center; */
     align-items: center;
     padding: 20vh 0vh 0 0vh;      
+  }
+
+  @media (max-width: 767px) {
+    .info-div {
+      background-color: transparent; /* Remove background color on small screens */
+      padding: 10px; /* Adjust padding */
+    }
+  }
+  
+  /* Media query for medium screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .info-div {
+      padding: 15px; /* Adjust padding */
+    }
+  }
+  
+  /* Media query for large screens */
+  @media (min-width: 992px) {
+    .info-div {
+      padding: 20px; /* Reset padding for large screens */
+    }
+  }
+  
+  /* Styles for the media section */
+  .mediaInfo {
+    margin-top: 20px; /* Example margin top */
+  }
+  
+  /* Media query for adjusting margin on small screens */
+  @media (max-width: 767px) {
+    .mediaInfo {
+      margin-top: 10px; /* Adjust margin for small screens */
+    }
   }
     
 }
