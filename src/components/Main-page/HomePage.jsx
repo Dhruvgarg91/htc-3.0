@@ -159,7 +159,7 @@ export default function HomePage(props) {
           <div data-aos='zoom-in' data-aos-duration='1000'  >
             <PrizeHeading type="What's in it for you ?" />
           </div>
-          <div data-aos='fade-left' data-aos-duration='1000'>
+          <div data-aos='fade-left' className="prize-group" data-aos-duration='1000'>
             {Prizeinfo.map(PrizeGroup)}
           </div>
         </Row>

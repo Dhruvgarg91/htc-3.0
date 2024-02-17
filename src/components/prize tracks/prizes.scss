@@ -3,7 +3,6 @@
 .Prizes{
     width: 32rem;
     height: 25rem;
-    width: fit-content;
     margin: 0 auto;
     margin-bottom: 5rem;
     text-align: center;
@@ -50,4 +49,23 @@ height: 7rem;
 
 .Prizes .seventh{
     color:#E4BAD4;
+}
+
+@media screen and (max-width: 700px){
+        .Prizes{
+            width: 90%;
+        }
+
+        @media screen and (max-width: 520px) {
+            .PrizeHeading h1 {
+                font-size: 3.3rem;
+            }
+        
+            .Prizes {
+                margin-bottom: 1rem;
+            }
+            .Prizes p{
+                font-size: 1.7rem;
+            }
+        }
 }
