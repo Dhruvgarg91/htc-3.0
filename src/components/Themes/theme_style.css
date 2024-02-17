@@ -10,7 +10,7 @@
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
 
     min-height: 200px;
-    width: 380px;
+    /* width: 380px; */
     transform-style: preserve-3d;
     cursor: pointer;
 
@@ -76,10 +76,6 @@
     color: black;
   }
 
-  /* .flip-card-front>p {
-
-  } */
-
   /* Style the back side */
   .flip-card-back {
     /* background-color: rgba(227, 122, 199, 0.851); */
@@ -118,7 +114,10 @@
   .flip-card img{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    width: 100%;
+    height: 200px;
   }
+
   @media only screen and (max-width: 768px) {
     .cardGrid {
       grid-template-columns: 1fr; /* Display one card per row */
@@ -132,6 +131,25 @@
     }
   }
 
-  
-  
-
+  @media screen and (max-width: 400px){
+    .flip-card-inner, .flip-card-back, .flip-card-front, .flip-card, .flip-card img{
+      max-width: 320px;
+      height: 183px;
+    }
+    @media screen and (max-width: 350px){
+      .flip-card-inner, .flip-card-back, .flip-card-front, .flip-card, .flip-card img{
+        max-width: 300px;
+        height: 172px;
+      }
+      @media screen and (max-width: 300px){
+        .yes{
+          scale: 0.9;
+        }
+      }
+      @media screen and (max-width: 270px){
+        .yes{
+          scale: 0.8;
+        }
+      }
+    }
+  }
