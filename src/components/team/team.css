@@ -49,10 +49,26 @@
 @media (max-width: 570px) {
   .member {
     margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
   .member img {
-    width: 25rem;
-    height: 25rem;
+    width: 15rem;
+    height: 15rem;
+  }
+  .members-link{
+    width: 50%;
+  }
+  .members-link h2{
+    font-size: 1.4rem;
+  }
+  .members-link p{
+    font-size: 1.2rem;
+  }
+  .members-link i{
+    font-size: 1.7em;
   }
   .joinT h3 {
     margin-right: 0px;
