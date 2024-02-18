@@ -78,6 +78,13 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+.map-iframe {
+  width: 100%; // Adjusted width
+  max-width: 400px; // Adjusted maximum width
+  height: 300px; // Adjusted height
+  margin: 0 auto; // Center the iframe horizontally
+}
+
 
 @media (max-width: 570px) {
   .Register_a a {

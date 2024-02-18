@@ -31,6 +31,7 @@ import { SOCIALS, FOOTER } from "../../Module/General";
 export default function Footer() {
   const [template, setTemplate] = useState(false);
   const [viewTemplate, setViewTemplate] = useState(true);
+  const [showMap, setShowMap] = useState(false); // Define showMap state
 
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
@@ -40,9 +41,14 @@ export default function Footer() {
     };
   }, []);
 
-  const listenScrollEvent = e => {
-    if (window.scrollY > 2800) setTemplate(true);
-    else if (window.scrollY < 2800) setTemplate(false);
+  const listenScrollEvent = () => {
+    if (window.scrollY > 2800) {
+      setTemplate(true);
+      setShowMap(true); // Set showMap to true when scroll position meets condition
+    } else if (window.scrollY < 2800) {
+      setTemplate(false);
+      setShowMap(false); // Set showMap to false when scroll position doesn't meet condition
+    }
   };
 
   return (
@@ -117,10 +123,25 @@ export default function Footer() {
             </a>
           )}
         </div>
+        {showMap && ( // Conditionally render the map
+          <iframe
+          className="map-iframe" // Add class to the iframe
+          title="googlemaps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5678.237381126973!2d77.11261932381059!3d28.67719569979277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d038dc3b91bc3%3A0x909c31c649a710b0!2sBharati%20Vidyapeeth%20Deemed%20University!5e0!3m2!1sen!2sin!4v1708254335969!5m2!1sen!2sin"
+          width="400" // Adjusted width
+          height="300" // Adjusted height
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+        
+        )}
         <div className="footer_info">
           {/* <p>
             Contact us <a href={SOCIALS.email}>{SOCIALS.mail}</a>{" "}
           </p> */}
+          
 
           {FOOTER.Privacy_policy.required && (
             <a
