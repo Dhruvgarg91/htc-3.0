@@ -316,7 +316,7 @@ const TeamInfo = [
       Name: "Ela Vinod",
       role: "Event Manager",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/ela-vinod04",
       img: Ela,
     },
   ],
