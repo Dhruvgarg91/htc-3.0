@@ -147,7 +147,8 @@ const ThemesInfo = [
       heading: "Education",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-        "Develop intelligent systems leveraging AI and IoT to automate processes and enhance productivity across industries",
+      "Transforming learning with tech-driven solutions for a future-ready world.",
+      // "Empowering minds through innovative solutions that redefine the future of learning and bridge the gap between traditional education and cutting-edge technologies",
       img: eduImg,
     },
   ],
@@ -157,7 +158,8 @@ const ThemesInfo = [
       heading: "Health",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-        " Utilize technology to preserve and promote cultural heritage, traditions, and historical artifacts for future generations",
+      // "Design accessible care solutions, leverage technology for diagnosis and prevention, and build a future where everyone thrives.",
+        " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
       img: healthImg,
     },
   ],
@@ -167,7 +169,7 @@ const ThemesInfo = [
       heading: "Trade",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-        "Explore the potential of blockchain technology for secure, transparent applications beyond finance.",
+          "Develop innovative trade solutions, streamline processes, and connect markets for a more prosperous world.",
       img: tradeImg,
     },
   ],
@@ -177,7 +179,7 @@ const ThemesInfo = [
       heading: "Transportation",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-        "Revolutionize the travel experience through tech-driven solutions, offering personalized, sustainable, and immersive journeys",
+          "Create seamless mobility options, develop sustainable solutions, and revolutionize the way we navigate our world.",
       img: investImg,
     },
   ],
@@ -186,8 +188,9 @@ const ThemesInfo = [
     {
       heading: "Smart City",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description:
-        "Engineer eco-friendly innovations to reduce carbon footprint, conserve resources, and promote a cleaner planet.",
+      description: 
+      "Create interconnected, data-driven urban solutions to optimize resources, improve services, and enhance citizen well-being.",
+      // "Hack the future of connected infrastructure, optimize living spaces, and build smarter, healthier cities for all.",
       img: smartCityImg,
     },
   ],
@@ -196,8 +199,8 @@ const ThemesInfo = [
     {
       heading: "Open Innovation",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description:
-        " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
+      description: "Combine your skills with diverse minds, tackle real-world challenges, and unleash the next wave of innovation.",
+      //   " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
       img: openInoImg,
     },
   ],
