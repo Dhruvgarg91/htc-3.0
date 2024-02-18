@@ -359,7 +359,7 @@ const TeamInfo = [
       Name: "Tushar Singh",
       role: "Event Co-ordinator",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/ela-vinod04",
       img: Tushar,
     },
 
