@@ -9,7 +9,8 @@
         "ignore": [
           "backdrop-filter",
           "max-width: fit-content",
-          "width: fit-content"
+          "width: fit-content",
+          "scale"
         ]
       }
     ]

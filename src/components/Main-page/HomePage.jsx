@@ -8,29 +8,24 @@ import { Logo, LogoSectionAbout } from "../logo-section/logoSection.jsx";
 import { FirstPrize, PrizeHeading } from "../prize tracks/prizes.jsx";
 import { Prizeinfo } from "../../Module/General.js";
 // import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
-import { Sponsor, SponsorsHead } from "../Sponsors/sponsors.jsx";
+import { Sponsor } from "../Sponsors/sponsors.jsx";
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
 import { Member } from "../team/team.jsx";
-import pattern from "./pattern4.png";
+
 import Media from "../media/media.jsx";
 // import mountains_front from '../navbar/mountains_front.png'
 import { ThemesInfo } from "../../Module/General";
 import { ThemeCard, CardGrid } from "../Themes/themes.jsx";
-import img1 from "./faq1.png";
+
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import backgroundimg4 from "./backgroundimg4.mp4";
 import {
-  TOP_SECTION,
+
   TeamInfo,
   // JudgesInfo,
-  sponsorLogos,
-  frequentlyAskedQuestions,
-  eventpartner,
-  platinumsponsor,
-  goldsponsor,
-  silversponsor,
+
   htc2023sponsor
 } from "../../Module/General.js";
 
