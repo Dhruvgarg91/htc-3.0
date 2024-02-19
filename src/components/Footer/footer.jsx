@@ -52,41 +52,77 @@ export default function Footer() {
         </div>
         {showMap && (
           <div className="pp">
-          <div className="map-social-container">
-            <div className="map-container">
-              <h2 className="hhh">Location:</h2>
-              <p>A-4, Paschim Vihar, New Rohtak Raod <br/>(In Front of Paschim Vihar East Metro Station)<br/> New Delhi, Delhi 110063</p>
-            </div>
-            <div className="map-container">
-              <h2 className="hhh">Map:</h2>
-              <iframe
-                title="Google Maps"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5678.237381126973!2d77.11261932381059!3d28.67719569979277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d038dc3b91bc3%3A0x909c31c649a710b0!2sBharati%20Vidyapeeth%20Deemed%20University!5e0!3m2!1sen!2sin!4v1708254335969!5m2!1sen!2sin"
-                width="400"
-                height="300"
-                style={{ border: "0" }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-            <div className="social-container">
-              <h2 className="hhh">Connect with us:</h2>
-              <div className="social-icons">
-                <a rel="noreferrer" target="_blank" href={SOCIALS.instagram}>
-                  <i className="fab fa-3x fa-instagram"></i>
-                </a>
-                <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
-                  <i className="fab fa-3x fa-discord"></i>
-                </a>
-                <a rel="noreferrer" target="_blank" href={SOCIALS.linkedin}>
-                  <i className="fab fa-3x fa-linkedin-in"></i>
-                </a>
-                <a rel="noreferrer" target="_blank" href={SOCIALS.email}>
-                <i class="fa fa-envelope-o" style={{ fontSize: '45px'}}></i>
-                </a>
+            <div className="map-social-container">
+              <div className="map-container">
+                <h2 className="hhh">Location:</h2>
+                <p>
+                  A-4, Paschim Vihar, New Rohtak Raod <br />
+                  (In Front of Paschim Vihar East Metro Station)
+                  <br /> New Delhi, Delhi 110063
+                </p>
               </div>
-            </div>
+              <div className="map-container">
+                <h2 className="hhh">Map:</h2>
+                <iframe
+                  title="Google Maps"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5678.237381126973!2d77.11261932381059!3d28.67719569979277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d038dc3b91bc3%3A0x909c31c649a710b0!2sBharati%20Vidyapeeth%20Deemed%20University!5e0!3m2!1sen!2sin!4v1708254335969!5m2!1sen!2sin"
+                  width="400"
+                  height="300"
+                  style={{ border: "0" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div className="social-container">
+                <h2 className="hhh">Connect with us:</h2>
+                <div className="social-icons">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href={SOCIALS.instagram}
+                    className="ll"
+                  >
+                    <i
+                      className="fab fa-3x fa-instagram"
+                      style={{ fontSize: "2em" }}
+                    ></i>
+                  </a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href={SOCIALS.discord}
+                    className="ll"
+                  >
+                    <i
+                      className="fab fa-3x fa-discord"
+                      style={{ fontSize: "2em" }}
+                    ></i>
+                  </a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href={SOCIALS.linkedin}
+                    className="ll"
+                  >
+                    <i
+                      className="fab fa-3x fa-linkedin-in"
+                      style={{ fontSize: "2em" }}
+                    ></i>
+                  </a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href={SOCIALS.email}
+                    className="ll"
+                  >
+                    <i
+                      className="fa fa-envelope-o"
+                      style={{ fontSize: "2em" }}
+                    ></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         )}

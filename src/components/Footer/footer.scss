@@ -26,12 +26,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.social-icon {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  align-items: center;
-}
+
 .footer {
   // margin-top: 50px;
   justify-content: center;
@@ -42,10 +37,17 @@
 
   
 }
-.footer p,i {
+.footer p {
   font-weight: 500;
   font-size: 1.5rem;
   color: white;
+  display: flex;
+  
+}
+.footer i {
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 .footer a {
   color: aliceblue;
