@@ -14,20 +14,19 @@
   white-space: nowrap;
   width: 100%;
 }
+.hhh{
+  color: white;
+}
 .social-icons-container {
-  padding: 20px;
+  padding: 22px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content:left;
+  align-items:left;
   margin-left: auto;
   margin-right: auto;
 }
-.social-icon {
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 .footer {
   // margin-top: 50px;
   justify-content: center;
@@ -35,13 +34,21 @@
   text-align: center;
   // background-color: rgb(32, 32, 32);
   background-color: #121930;
+  
 
   
 }
-.footer p,i {
+.footer p {
   font-weight: 500;
   font-size: 1.5rem;
   color: white;
+
+  
+}
+.footer i {
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 .footer a {
   color: aliceblue;
@@ -64,6 +71,14 @@
   top: -5px;
   // transition: all .2s linear;
 }
+.pp{
+  background-color:#0c1220;
+}
+.map-container p{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .footer_info {
   padding: 20px 0;
   background-color: rgb(32, 32, 32);
@@ -77,6 +92,31 @@
 .Register_a a {
   margin-left: 10px;
   margin-right: 10px;
+}
+.map-iframe {
+  width: 100%; // Adjusted width
+  max-width: 400px; // Adjusted maximum width
+  height: 300px; // Adjusted height
+  margin: 0 auto; // Center the iframe horizontally
+}
+@media screen and (max-width: 400px){
+  .map-iframe {
+    width: 100%; // Adjusted width
+    max-width: 300px; // Adjusted maximum width
+    height: 200px; // Adjusted height
+    margin: 0 auto; // Center the iframe horizontally
+  }
+  @media screen and (max-width: 300px){
+    .yes{
+      scale: 0.9;
+    }
+  }
+    @media screen and (max-width: 270px){
+      .yes{
+        scale: 0.8;
+      }
+    
+    }
 }
 
 @media (max-width: 570px) {
@@ -93,6 +133,33 @@
     padding-right: 0px;
   }
 }
+.map-social-container {
+  display: flex;
+  padding: 3rem;
+   
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;/* Use flexbox to make children items align horizontally */
+}
+
+.map-container,
+.social-container {
+  flex: 1; /* Each container takes up equal space */
+  margin-right: 20px; /* Add margin between containers */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .map-social-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .map-container,
+  .social-container {
+    margin-right: 0; /* Remove margin for smaller screens */
+    margin-bottom: 20px; /* Add margin between containers in vertical layout */
+  }
+}
+
 
 .privacy-policy p {
   font-size: 2vh;
@@ -128,8 +195,31 @@
       font-size: 14px;
     }
   }
+    
+
+
+
+
+  
   a {
     color: #43b7be;
   }
 
+}
+.map-container {
+  flex-grow: 1; /* Each container takes up equal space */
+  margin-right: 20px; /* Add margin between containers */
+}
+
+.map-container iframe {
+  width: 100%; /* Make the map iframe fill the container */
+}
+
+/* Adjust map size for screens below 400px */
+@media (max-width: 400px) {
+  .map-container {
+    flex-basis: calc(100% - 20px); /* Map container takes up full width with margin */
+    margin: 10px; /* Add slight margin to all sides */
+    margin-right: 0; /* Remove margin for smaller screens */
+  }
 }
