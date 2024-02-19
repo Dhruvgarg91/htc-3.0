@@ -35,7 +35,7 @@
 }
 
 .imageFAQ {
-  background: rgb(133, 126, 136);
+  background: rgb(30, 6, 86);
 }
 
 .mainCards img {
@@ -85,7 +85,7 @@
 
 .mainCards:hover {
   cursor: pointer;
-  background: linear-gradient(#491d8b 30%, #0f192e);
+  background: linear-gradient(#150d22 30%, #0f192e);
 }
 
 .mainCards:hover .content {
