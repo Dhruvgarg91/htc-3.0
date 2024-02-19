@@ -55,7 +55,7 @@ export default function Footer() {
           <div className="map-social-container">
             <div className="map-container">
               <h2 className="hhh">Location:</h2>
-              <p>A-4, Paschim Vihar, New Rohtak Raod (In Front of Paschim Vihar East Metro Station), New Delhi, Delhi 110063</p>
+              <p>A-4, Paschim Vihar, New Rohtak Raod <br/>(In Front of Paschim Vihar East Metro Station)<br/> New Delhi, Delhi 110063</p>
             </div>
             <div className="map-container">
               <h2 className="hhh">Map:</h2>
