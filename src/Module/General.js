@@ -45,8 +45,8 @@ import Bhavik from "./Assets/teami/Bhavik.png";
 import Bhavya from "./Assets/teami/Bhavya.jpg";
 import Bhrigu from "./Assets/teami/Bhrigu.png";
 // import Divya from "./Assets/teami/Divya.png";
-import Anmol from './Assets/teami/Anmol_Pokhriyal.jpg'
-import Shreya from './Assets/teami/shreya_sahoo.jpg'
+import Anmol from "./Assets/teami/Anmol_Pokhriyal.jpg";
+import Shreya from "./Assets/teami/shreya_sahoo.jpg";
 import Ela from "./Assets/teami/Ela.png";
 import Jasmine from "./Assets/teami/Jasmine.png";
 import Kashish from "./Assets/teami/Kashish.png";
@@ -102,8 +102,7 @@ const SOCIALS = {
 
 const MIDDLE_SECTION = {
   TITLE: "What is Hack the Crisis?",
-  LONG_DESCRIPTION:
-    `Participate in HTC 3.0, "Hack the Crisis", a distinguished 24-hour hackathon taking place on March 13th and 14th, 2024, at Bharati Vidyapeeth College of Engineering, New Delhi. This event is dedicated to addressing a significant challenge: climate change. We invite you to collaborate, leveraging your skills to devise innovative solutions for the betterment of our planet. HTC 3.0 transcends being merely a competition; it stands as an opportunity to effect substantial change. Let's elevate HTC 3.0 into an indelible moment for positive change and innovation, with a focal point on the imperative theme of climate change. We welcome you to be part of this meaningful journey, contributing your expertise towards a sustainable and impactful future.`,
+  LONG_DESCRIPTION: `Participate in HTC 3.0, "Hack the Crisis", a distinguished 24-hour hackathon taking place on March 13th and 14th, 2024, at Bharati Vidyapeeth College of Engineering, New Delhi. This event is dedicated to addressing a significant challenge: climate change. We invite you to collaborate, leveraging your skills to devise innovative solutions for the betterment of our planet. HTC 3.0 transcends being merely a competition; it stands as an opportunity to effect substantial change. Let's elevate HTC 3.0 into an indelible moment for positive change and innovation, with a focal point on the imperative theme of climate change. We welcome you to be part of this meaningful journey, contributing your expertise towards a sustainable and impactful future.`,
   LOGO_EFFECT: true,
   LOGO: "",
 };
@@ -147,7 +146,7 @@ const ThemesInfo = [
       heading: "Education",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-      "Transforming learning with tech-driven solutions for a future-ready world.",
+        "Transforming learning with tech-driven solutions for a future-ready world.",
       // "Empowering minds through innovative solutions that redefine the future of learning and bridge the gap between traditional education and cutting-edge technologies",
       img: eduImg,
     },
@@ -158,7 +157,7 @@ const ThemesInfo = [
       heading: "Health",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-      // "Design accessible care solutions, leverage technology for diagnosis and prevention, and build a future where everyone thrives.",
+        // "Design accessible care solutions, leverage technology for diagnosis and prevention, and build a future where everyone thrives.",
         " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
       img: healthImg,
     },
@@ -169,7 +168,7 @@ const ThemesInfo = [
       heading: "Trade",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-          "Develop innovative trade solutions, streamline processes, and connect markets for a more prosperous world.",
+        "Develop innovative trade solutions, streamline processes, and connect markets for a more prosperous world.",
       img: tradeImg,
     },
   ],
@@ -179,7 +178,7 @@ const ThemesInfo = [
       heading: "Transportation",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-          "Create seamless mobility options, develop sustainable solutions, and revolutionize the way we navigate our world.",
+        "Create seamless mobility options, develop sustainable solutions, and revolutionize the way we navigate our world.",
       img: investImg,
     },
   ],
@@ -188,8 +187,8 @@ const ThemesInfo = [
     {
       heading: "Smart City",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: 
-      "Create interconnected, data-driven urban solutions to optimize resources, improve services, and enhance citizen well-being.",
+      description:
+        "Create interconnected, data-driven urban solutions to optimize resources, improve services, and enhance citizen well-being.",
       // "Hack the future of connected infrastructure, optimize living spaces, and build smarter, healthier cities for all.",
       img: smartCityImg,
     },
@@ -199,7 +198,8 @@ const ThemesInfo = [
     {
       heading: "Open Innovation",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: "Combine your skills with diverse minds, tackle real-world challenges, and unleash the next wave of innovation.",
+      description:
+        "Combine your skills with diverse minds, tackle real-world challenges, and unleash the next wave of innovation.",
       //   " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
       img: openInoImg,
     },
@@ -247,7 +247,7 @@ const Prizeinfo = [
     },
   ],
   // [
-    //Array 2
+  //Array 2
   //   {
   //     icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
   //     type: "Best Solo",
@@ -412,16 +412,14 @@ const TeamInfo = [
       Name: "Bhavya Jain",
       role: "Technical Head",
       github: "",
-      linkedin:
-        "https://www.linkedin.com/in/bhavya-jain-33262627a",
+      linkedin: "https://www.linkedin.com/in/bhavya-jain-33262627a",
       img: Bhavya,
     },
     {
       Name: "Bhrigu Tayal",
       role: "Publicity Head",
       github: "",
-      linkedin:
-        "https://www.linkedin.com/in/bhrigu-tayal-0aa469212",
+      linkedin: "https://www.linkedin.com/in/bhrigu-tayal-0aa469212",
       img: Bhrigu,
     },
   ],

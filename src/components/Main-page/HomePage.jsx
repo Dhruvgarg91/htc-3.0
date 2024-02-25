@@ -216,7 +216,7 @@ export default function HomePage(props) {
         {/* ********Frequently asked Questions here ***** */}
         <Row className="mainFaqs" id="faq"  >
           <h1 className="faqs" style={{ paddingTop: "6rem", paddingBottom: "2rem", color: "#ffff" }}>FAQ</h1>
-          <div data-aos='fade-right' data-aos-duration='1000' style={{display: "grid"}} ><Faq /></div>
+          <div data-aos='fade-right' data-aos-duration='1000' style={{display: "block",width:"100vw"}} ><Faq /></div>
         </Row>
       </Container>
 
