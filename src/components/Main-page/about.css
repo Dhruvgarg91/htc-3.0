@@ -111,6 +111,10 @@ align-items: center;
   padding: 0vh 10vh 0 10vh;
 }
 
+.dekho-logo{
+  border-radius: 15px;
+}
+
 /* Styles for prizes section */
 .prizesection {
   text-align: center;
@@ -119,6 +123,10 @@ align-items: center;
   background: linear-gradient(#141a2a 30%, #0f192e);
   padding-bottom: 10vh;
   color: rgb(237, 237, 236);
+}
+
+.eventpartners {
+  padding-bottom: 4vh;
 }
 
 /* Media query for smaller font size on mobile devices */
@@ -138,25 +146,26 @@ align-items: center;
 
 }
 .sponsorSection {
-  padding: 17vh 18vh 0 18vh;
+  padding: 7vh 18vh 2vh 18vh;
   max-width: 100vw;
-  height: 100vh;
-  /* margin-top: -10vh; */
-  /* margin-top: 0vh; */
-  /* background-image: linear-gradient(to bottom right, #7742B2 0%, #F180FF 70%, #FD8BD9 100%); */
-  /* background: linear-gra); */
-  background-color: rgb(250, 246, 251);
-  
+  /* height: 100vh; */
+  /* max-height: 100vh; */  
   
 }
-
+.pow-By h1{
+  color: #576370!important;
+  font-size: 3.4rem;
+}
+.pow-By img{
+  width: 14rem!important;
+}
 .sponsorSection h5 {
-  color:#ffe;
+  /* color:#ffe; */
   color: rgb(18, 18, 18);
 }
 .sponsorSection h1{
-  color: rgb(237, 237, 236);
-  color: rgb(18, 18, 18);
+  /* color: rgb(237, 237, 236); */
+  /* color: rgb(18, 18, 18); */
 }
 .team-section {
   /* background-image: linear-gradient(to top right, #7742B2 0%, #F180FF 70%, #FD8BD9 100%); */
@@ -220,7 +229,7 @@ padding: 10vh 0 10vh 0;
   .sponsorSection {
     padding: 0;
     margin: 0;
-    margin: 12rem auto;
+    margin: 7rem auto;
   }
 
   .logoSection {
@@ -259,8 +268,12 @@ padding: 10vh 0 10vh 0;
       background-color: transparent; /* Remove background color on small screens */
       padding: 10px; /* Adjust padding */
     }
+
+    .sponsorSection h1{
+      font-size: 4rem;
+    }
   }
-  
+
   /* Media query for medium screens */
   @media (min-width: 768px) and (max-width: 991px) {
     .info-div {

@@ -26,7 +26,9 @@ import {
   TeamInfo,
   // JudgesInfo,
 
-  htc2023sponsor
+  htc2023sponsor,
+  poweredBy,
+  mediaPartners
 } from "../../Module/General.js";
 
 import Faq from "../FAQ/faq.jsx";
@@ -35,7 +37,7 @@ import Faq from "../FAQ/faq.jsx";
 
 function SponsorGroup(props) {
   return (
-    <Row justifyContent="center" alignItems="center">
+    <Row className="sponsorRow" >
       {props.map((s, key) => (
         <Col
           key={key}
@@ -43,10 +45,10 @@ function SponsorGroup(props) {
           alignItems="center"
           sm={12}
           lg={4}
-          md={6}
+          md={4}
         >
           {" "}
-          <Sponsor link={s.link} srcx={s.src} alt={s.alt} />{" "}
+          <Sponsor link={s.link} srcx={s.src} alt={s.alt} className={s.class} />{" "}
         </Col>
       ))}
     </Row>
@@ -163,11 +165,24 @@ export default function HomePage(props) {
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection" id="sponsors">
+          <div className="pow-By" >
+            <h1>Powered By</h1>
+            <div className="eventpartners" data-aos="fade-left" data-aos-duration="700">
+              {/* <h5 className="ssubhead">Our Sponsors</h5> */}
+              {poweredBy.map(SponsorGroup)}
+            </div>
+          </div>
 
           {/* <SponsorsHead /> */}
-          <h1 style={{ fontFamily: "Times New Roman" }}>SPONSORS</h1><br></br>
+          <h1 style={{ color: "#596f87", fontSize: "4rem" }}>Media Partners</h1><br></br>
           {/* <h1 style={{fontFamily: "Times New Roman"}}>COMING SOON</h1> */}
-          <div className="eventpartners" data-aos="fade-left" data-aos-duration="700">
+          <div className="eventpartners" data-aos="fade-left" data-aos-duration="700"  >
+            {/* <h5 className="ssubhead">Our Sponsors</h5> */}
+            {mediaPartners.map(SponsorGroup)}
+          </div>
+          <h1 style={{ color: "#385574" }}>Our Sponsors</h1><br></br>
+          {/* <h1 style={{fontFamily: "Times New Roman"}}>COMING SOON</h1> */}
+          <div className="eventpartners" data-aos="fade-left" data-aos-duration="700"  >
             {/* <h5 className="ssubhead">Our Sponsors</h5> */}
             {htc2023sponsor.map(SponsorGroup)}
           </div>
@@ -216,7 +231,7 @@ export default function HomePage(props) {
         {/* ********Frequently asked Questions here ***** */}
         <Row className="mainFaqs" id="faq"  >
           <h1 className="faqs" style={{ paddingTop: "6rem", paddingBottom: "2rem", color: "#ffff" }}>FAQ</h1>
-          <div data-aos='fade-right' data-aos-duration='1000' style={{display: "grid"}} ><Faq /></div>
+          <div data-aos='fade-right' data-aos-duration='1000' style={{ display: "grid" }} ><Faq /></div>
         </Row>
       </Container>
 
