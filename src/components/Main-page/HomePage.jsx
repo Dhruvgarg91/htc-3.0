@@ -26,7 +26,9 @@ import {
   TeamInfo,
   // JudgesInfo,
 
-  htc2023sponsor
+  htc2023sponsor,
+  poweredBy,
+  mediaPartners
 } from "../../Module/General.js";
 
 import Faq from "../FAQ/faq.jsx";
