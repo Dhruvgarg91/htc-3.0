@@ -17,7 +17,7 @@ function SponsorsHead() {
 function Sponsor(props) {
   return (
     <div className="Sponsor">
-     <a href={props.link} rel="noreferrer" target="_blank"> <img src={props.srcx} alt={props.alt}></img></a>
+     <a href={props.link} rel="noreferrer" target="_blank"> <img src={props.srcx} alt={props.alt} className={props.className}></img></a>
     </div>
   );
 }

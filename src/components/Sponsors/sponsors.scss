@@ -3,6 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+}
+
+.sponsorRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Sponsor:hover {
@@ -15,7 +22,7 @@
   width: 20rem;
   display: inline-block;
   margin: 0;
-  margin-top: 3rem;
+  margin-top: 1rem;
   transition: right 0.2s linear;
 }
 
