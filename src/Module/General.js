@@ -21,6 +21,12 @@
 import devfolio from "../Module/Assets/devfolio/Devfolio_Logo-White.svg";
 import polygon from "../Module/Assets/devfolio/Polygon_Logo-White.svg";
 import ETHIndia from "../Module/Assets/devfolio/ETHIndia.svg";
+import dekhoUni from "../Module/Assets/sponsorsLogos/dekho.jpg"
+// import dekhoUni from "../Module/Assets/sponsorsLogos/dekhoUniversity.png"
+// import bobble from "../Module/Assets/sponsorsLogos/BobbleAI.jpg"
+import bobble from "../Module/Assets/sponsorsLogos/BobbleFan.png"
+import startupNews from "../Module/Assets/sponsorsLogos/startupnews.png"
+
 import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
 import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
 import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
@@ -45,8 +51,8 @@ import Bhavik from "./Assets/teami/Bhavik.png";
 import Bhavya from "./Assets/teami/Bhavya.jpg";
 import Bhrigu from "./Assets/teami/Bhrigu.png";
 // import Divya from "./Assets/teami/Divya.png";
-import Anmol from './Assets/teami/Anmol_Pokhriyal.jpg'
-import Shreya from './Assets/teami/shreya_sahoo.jpg'
+import Anmol from "./Assets/teami/Anmol_Pokhriyal.jpg";
+import Shreya from "./Assets/teami/shreya_sahoo.jpg";
 import Ela from "./Assets/teami/Ela.png";
 import Jasmine from "./Assets/teami/Jasmine.png";
 import Kashish from "./Assets/teami/Kashish.png";
@@ -102,8 +108,7 @@ const SOCIALS = {
 
 const MIDDLE_SECTION = {
   TITLE: "What is Hack the Crisis?",
-  LONG_DESCRIPTION:
-    `Participate in HTC 3.0, "Hack the Crisis", a distinguished 24-hour hackathon taking place on March 13th and 14th, 2024, at Bharati Vidyapeeth College of Engineering, New Delhi. This event is dedicated to addressing a significant challenge: climate change. We invite you to collaborate, leveraging your skills to devise innovative solutions for the betterment of our planet. HTC 3.0 transcends being merely a competition; it stands as an opportunity to effect substantial change. Let's elevate HTC 3.0 into an indelible moment for positive change and innovation, with a focal point on the imperative theme of climate change. We welcome you to be part of this meaningful journey, contributing your expertise towards a sustainable and impactful future.`,
+  LONG_DESCRIPTION: `Participate in HTC 3.0, "Hack the Crisis", a distinguished 24-hour hackathon taking place on March 13th and 14th, 2024, at Bharati Vidyapeeth College of Engineering, New Delhi. This event is dedicated to addressing a significant challenge: climate change. We invite you to collaborate, leveraging your skills to devise innovative solutions for the betterment of our planet. HTC 3.0 transcends being merely a competition; it stands as an opportunity to effect substantial change. Let's elevate HTC 3.0 into an indelible moment for positive change and innovation, with a focal point on the imperative theme of climate change. We welcome you to be part of this meaningful journey, contributing your expertise towards a sustainable and impactful future.`,
   LOGO_EFFECT: true,
   LOGO: "",
 };
@@ -147,7 +152,7 @@ const ThemesInfo = [
       heading: "Education",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-      "Transforming learning with tech-driven solutions for a future-ready world.",
+        "Develop intelligent systems leveraging AI and IoT to automate processes and enhance productivity across industries Transforming learning with tech-driven solutions for a future-ready world",
       // "Empowering minds through innovative solutions that redefine the future of learning and bridge the gap between traditional education and cutting-edge technologies",
       img: eduImg,
     },
@@ -158,8 +163,8 @@ const ThemesInfo = [
       heading: "Health",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-      // "Design accessible care solutions, leverage technology for diagnosis and prevention, and build a future where everyone thrives.",
-        " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
+        " Utilize technology to preserve and promote cultural heritage, traditions, and historical artifacts for future generations Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
+        // "Design accessible care solutions, leverage technology for diagnosis and prevention, and build a future where everyone thrives.",
       img: healthImg,
     },
   ],
@@ -169,7 +174,7 @@ const ThemesInfo = [
       heading: "Trade",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-          "Develop innovative trade solutions, streamline processes, and connect markets for a more prosperous world.",
+        "Explore the potential of blockchain technology for secure, transparent applications beyond finance.Develop innovative trade solutions, streamline processes, and connect markets for a more prosperous world.",
       img: tradeImg,
     },
   ],
@@ -179,7 +184,7 @@ const ThemesInfo = [
       heading: "Transportation",
       icon: <i className="fas fa-4x fa-trophy"></i>,
       description:
-          "Create seamless mobility options, develop sustainable solutions, and revolutionize the way we navigate our world.",
+        "Revolutionize the travel experience through tech-driven solutions, offering personalized, sustainable, and immersive journeys. Create seamless mobility options, develop sustainable solutions, and revolutionize the way we navigate our world.",
       img: investImg,
     },
   ],
@@ -188,8 +193,10 @@ const ThemesInfo = [
     {
       heading: "Smart City",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: 
-      "Create interconnected, data-driven urban solutions to optimize resources, improve services, and enhance citizen well-being.",
+      description:
+        "Engineer eco-friendly innovations to reduce carbon footprint, conserve resources, and promote a cleaner planet.",
+      description:
+        "Create interconnected, data-driven urban solutions to optimize resources, improve services, and enhance citizen well-being.",
       // "Hack the future of connected infrastructure, optimize living spaces, and build smarter, healthier cities for all.",
       img: smartCityImg,
     },
@@ -199,7 +206,10 @@ const ThemesInfo = [
     {
       heading: "Open Innovation",
       icon: <i className="fas fa-4x fa-trophy"></i>,
-      description: "Combine your skills with diverse minds, tackle real-world challenges, and unleash the next wave of innovation.",
+      description:
+        " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
+      description:
+        "Combine your skills with diverse minds, tackle real-world challenges, and unleash the next wave of innovation.",
       //   " Develop cutting-edge technologies to enhance healthcare access, affordability, and patient outcomes.",
       img: openInoImg,
     },
@@ -247,7 +257,7 @@ const Prizeinfo = [
     },
   ],
   // [
-    //Array 2
+  //Array 2
   //   {
   //     icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
   //     type: "Best Solo",
@@ -412,16 +422,14 @@ const TeamInfo = [
       Name: "Bhavya Jain",
       role: "Technical Head",
       github: "",
-      linkedin:
-        "https://www.linkedin.com/in/bhavya-jain-33262627a",
+      linkedin: "https://www.linkedin.com/in/bhavya-jain-33262627a",
       img: Bhavya,
     },
     {
       Name: "Bhrigu Tayal",
       role: "Publicity Head",
       github: "",
-      linkedin:
-        "https://www.linkedin.com/in/bhrigu-tayal-0aa469212",
+      linkedin: "https://www.linkedin.com/in/bhrigu-tayal-0aa469212",
       img: Bhrigu,
     },
   ],
@@ -516,15 +524,26 @@ const silversponsor = [
   [{ src: pharmeasy, link: "" }],
 ];
 
+const poweredBy = [
+  [
+    {src: bobble, link: "https://fanstore.bobble.ai/", alt: "BOBBLE AI LOGO" } 
+  ]
+]
+const mediaPartners = [
+  [
+    { src: startupNews, link: "https://startupnews.fyi/", alt: "STARTUPNEWS LOGO" },
+  ]
+]
 const htc2023sponsor = [
   [
-    { src: devfolio, link: "https://devfolio.co", alt: "DEVFOLIO LOGO" },
+    { src: devfolio, link: "https://devfolio.co/", alt: "DEVFOLIO LOGO" },
     { src: polygon, link: "https://polygon.technology/", alt: "POLYGON LOGO" },
     // { src: solana, link: "", alt: "SOLANA LOGO" },
-    { src: ETHIndia, link: "", alt: "ETH INDIA LOGO" },
+    { src: ETHIndia, link: "https://ethindia.co/", alt: "ETH INDIA LOGO" },
+    { src: dekhoUni, link: "https://dekhouniversity.com/", alt: "DEKHO UNIVERSITY LOGO", class: "dekho-logo"},
   ],
+
   // [
-  //   { src: filecoin, link: "https://filecoin.io", alt: "FILECOIN LOGO" },
   // ],
 ];
 
@@ -603,6 +622,8 @@ export {
   platinumsponsor,
   goldsponsor,
   silversponsor,
+  poweredBy,
+  mediaPartners,
   htc2023sponsor,
   TeamInfo,
   // Mentor as JudgesInfo,
