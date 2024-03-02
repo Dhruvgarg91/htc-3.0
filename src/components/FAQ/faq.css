@@ -134,6 +134,7 @@
   margin: 0 auto;
 }
 .accordion-item {
+  border-style: hidden;
   border-radius: 10px;
 }
 .sign {
@@ -144,12 +145,17 @@
   background-color: #885dc8;
   margin: 15px 5px;
   color: white;
+  border-style: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px white;
 }
 .accordion-title {
   display: flex;
   padding: 20px;
   background: #fff;
   margin: 5px;
+  border-style: hidden;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 1270px) {
   .mainCards {
