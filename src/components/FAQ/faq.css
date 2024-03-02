@@ -1,4 +1,4 @@
-.mainCards {
+/* .mainCards {
   background: linear-gradient(#6a5fb9 10%, #141a2a);
   color: #fff;
   margin: 2rem 4rem;
@@ -7,8 +7,8 @@
   width: 32rem;
   border-radius: 1.4rem;
   box-shadow: 5px 5px 5px  rgb(30, 30, 30);
-  /* box-shadow: rgba(208, 207, 207, 0.3) 0px 5px 15px; */
-  /* box-shadow: rgba(255, 250, 250, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+   box-shadow: rgba(208, 207, 207, 0.3) 0px 5px 15px; 
+   box-shadow: rgba(255, 250, 250, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
 
 }
 
@@ -20,14 +20,14 @@
   height: 100%;
   background: whitesmoke;
   transform: translateY(-80px);
-}
+} */
 
-.content h1 {
+/* .content h1 {
   font-size: 3rem;
   padding: 1rem 3rem;
   position: relative;
   top: 18.5rem !important;
-  /* background: linear-gradient(#885dc8 30%, #969aa1); */
+  background: linear-gradient(#885dc8 30%, #969aa1);
   background-blend-mode: color-burn;
   text-align: center;
   width: 100%;
@@ -62,7 +62,7 @@
   padding: 0.5rem;
   box-sizing: border-box;
   position: relative;
-  /* background: black; */
+   background: black; 
   bottom: 27rem;
   transition: 0.4s;
   color: rgb(241, 241, 241);
@@ -106,10 +106,10 @@
   overflow: hidden;
 }
 
-/* .mainCards:hover{
+ .mainCards:hover{
   background-image: url('./Vectors/Vector.svg');
   transition: background 1s;
-} */
+} 
 .mainCards:hover h1 {
   visibility: hidden;
 }
@@ -122,10 +122,43 @@
 .mainCards:hover .imgbox {
   transform: translateY(-27rem);
   transition: 0.5s;
-}
+} */
 
-@media only screen and (max-width: 1270px){
-  .mainCards{
+.accordion {
+  padding: 50px;
+  color: #150d22;
+  font-size: 1.8rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.accordion-item {
+  border-style: hidden;
+  border-radius: 10px;
+}
+.sign {
+  text-align: right;
+}
+.accordion-content {
+  padding: 20px;
+  background-color: #885dc8;
+  margin: 15px 5px;
+  color: white;
+  border-style: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px white;
+}
+.accordion-title {
+  display: flex;
+  padding: 20px;
+  background: #fff;
+  margin: 5px;
+  border-style: hidden;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 1270px) {
+  .mainCards {
     margin: 2rem 2rem;
   }
 }
